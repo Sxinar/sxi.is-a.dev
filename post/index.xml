@@ -124,6 +124,33 @@ Blog’um, RSS destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz
 <p>Merhaba ben Sxinar burada önemli duyuru ve blog yazılarımı ve bütün link adreslerimi bulabilirsiniz.</p>
 <hr>
 <p>Blog’um, RSS destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz RSS okuyucunuz üzerinden blogumu takibe alabilirsiniz.</p>
+]]></content:encoded></item><item><title>Kendi subdomaininizi edinin: "Karşınızda is-a.dev"</title><link>https://sxi.is-a.dev/post/2024-07-02-kendi-subdomaininizi-edinin-karsinizda-is-adev/</link><pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate><guid>https://sxi.is-a.dev/post/2024-07-02-kendi-subdomaininizi-edinin-karsinizda-is-adev/</guid><description>Github sayfalarınız için kendi custom subdomaininizi edinin.</description><content:encoded><![CDATA[<p>Arkadaşlar herkese merhabalar nasılsınız?<br>
+Malum artık teknoloji çağındayız ve bence bu çağda tüm bireylerin bir blog sayfasi olmalı.</p>
+<p>Yazmak bir kültürdürBu konu için Yusuf İpek bir yayın yapmıştı kendisinin her adımını takip ederim :grinning: <a href="https://www.youtube.com/live/ZVUIxt5lYaQ?si=2jsbFcuFusVNqQQD">Konuklarımızla neden ve nasıl web sitesi sahibi olmalıyız?</a></p>
+<p>İmkanlar da geliştiği için masraflı bir yöntem değil github+vercel veya direkt github pages kullanılarak blog sayfamızı elde edebiliyoruz.Yalan yok .github.io alan adına sahip bir site gerçekten gereksiz uzun gözüküyor.Benim gözümü kanatıyor en azından.Tam bu esnada imdadımıza “is-a.dev” yetişiyor.Yalan yok bu alan adının da .github.io alan adından üstün bir yanı yok ama daha kısa en azından.Ayrıca github dışında projeleriniz için de kullanabilirsiniz.Peki nasıl “is-a.dev” alan adına sahip olabilirim?</p>
+<!-- raw HTML omitted -->
+<ol>
+<li>
+<p>Öncelikle <a href="https://is-a.dev/">İs-a.dev adresine gidiyoruz</a> (Meraklısına)</p>
+</li>
+<li>
+<p>Daha sonra <a href="https://github.com/is-a-dev/register">Github reposuna gidiyoruz.</a></p>
+</li>
+<li>
+<p>Daha sonra ise <a href="https://github.com/is-a-dev/register/fork">Bu bağlantıya tıklayarak projeyi forkluyoruz.</a></p>
+</li>
+<li>
+<p>Daha sonra forkladığımız proje sayfasına giriyoruz.</p>
+</li>
+<li>
+<p>Ben kendi adıma konuşuyorum /domains adresine gidiyoruz ve “kendi-adin.json” adlı bir dosya oluşturuyoruz.</p>
+</li>
+<li>
+<p><code>{ &quot;owner&quot;: { &quot;username&quot;: &quot;sxinar&quot;, &quot;email&quot;: &quot;ornek@sxinar.com.tr&quot; }, &quot;record&quot;: { &quot;URL&quot;: &quot;https://sxonar.com.tr&quot; } }</code><br>
+Dosyasını yapıştırıyoruz fakat siz düzenleme yapacaksınız daha sonra pull request atıyoruz ve alan adı kaydıni bekliyoruz.</p>
+</li>
+</ol>
+<!-- raw HTML omitted -->
 ]]></content:encoded></item><item><title>Kendi subdomaininizi edinin: "Karşınızda is-a.dev"</title><link>https://sxi.is-a.dev/post/kendi-subdomaininizi-edinin/</link><pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate><guid>https://sxi.is-a.dev/post/kendi-subdomaininizi-edinin/</guid><description>Github sayfalarınız için kendi custom subdomaininizi edinin.</description><content:encoded><![CDATA[<p>Arkadaşlar herkese merhabalar nasılsınız?<br>
 Malum artık teknoloji çağındayız ve bence bu çağda tüm bireylerin bir blog sayfasi olmalı.</p>
 <p>Yazmak bir kültürdür<br>
