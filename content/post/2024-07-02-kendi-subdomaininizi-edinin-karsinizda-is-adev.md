@@ -9,7 +9,7 @@ Arkadaşlar herkese merhabalar nasılsınız?
 Malum artık teknoloji çağındayız ve bence bu çağda tüm bireylerin bir blog sayfasi olmalı.
 
 Yazmak bir kültürdür  
-Bu konu için Yusuf İpek bir yayın yapmıştı kendisinin her adımını takip ederim :D [Konuklarımızla neden ve nasıl web sitesi sahibi olmalıyız?](https://www.youtube.com/live/ZVUIxt5lYaQ?si=HxpOzObMXb2LYuMh)  
+Bu konu için Yusuf İpek bir yayın yapmıştı kendisinin her adımını takip ederim :grinning: [Konuklarımızla neden ve nasıl web sitesi sahibi olmalıyız?](https://www.youtube.com/live/ZVUIxt5lYaQ?si=HxpOzObMXb2LYuMh)  
 İmkanlar da geliştiği için masraflı bir yöntem değil github+vercel veya direkt github pages kullanılarak blog sayfamızı elde edebiliyoruz.  
 Yalan yok .github.io alan adına sahip bir site gerçekten gereksiz uzun gözüküyor.  
 Benim gözümü kanatıyor en azından.  
