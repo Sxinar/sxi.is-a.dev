@@ -8,7 +8,9 @@ date: 2024-07-02
 Arkadaşlar herkese merhabalar nasılsınız?  
 Malum artık teknoloji çağındayız ve bence bu çağda tüm bireylerin bir blog sayfasi olmalı.
 
-Yazmak bir kültürdürBu konu için Yusuf İpek bir yayın yapmıştı kendisinin her adımını takip ederim {{ emojify ":grinning:" }}
+Yazmak bir kültürdür.
+
+Bu konu için Yusuf İpek bir yayın yapmıştı kendisinin her adımını takip ederim {{ emojify ":grinning:" }}
 
 [Konuklarımızla neden ve nasıl web sitesi sahibi olmalıyız?](https://www.youtube.com/live/ZVUIxt5lYaQ?si=2jsbFcuFusVNqQQD)
 
