@@ -10,7 +10,7 @@ Malum artık teknoloji çağındayız ve bence bu çağda tüm bireylerin bir bl
 
 Yazmak bir kültürdür.
 
-Bu konu için Yusuf İpek bir yayın yapmıştı kendisinin her adımını takip ederim {{ emojify ":grinning:" }}
+Bu konu için Yusuf İpek bir yayın yapmıştı kendisinin her adımını takip ederim 😀
 
 [Konuklarımızla neden ve nasıl web sitesi sahibi olmalıyız?](https://www.youtube.com/live/ZVUIxt5lYaQ?si=2jsbFcuFusVNqQQD)
 
