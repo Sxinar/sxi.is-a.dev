@@ -127,7 +127,7 @@ Blog’um, RSS destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz
 ]]></content:encoded></item><item><title>Kendi subdomaininizi edinin: "Karşınızda is-a.dev"</title><link>https://sxi.is-a.dev/post/2024-07-02-kendi-subdomaininizi-edinin-karsinizda-is-adev/</link><pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate><guid>https://sxi.is-a.dev/post/2024-07-02-kendi-subdomaininizi-edinin-karsinizda-is-adev/</guid><description>Github sayfalarınız için kendi custom subdomaininizi edinin.</description><content:encoded><![CDATA[<p>Arkadaşlar herkese merhabalar nasılsınız?<br>
 Malum artık teknoloji çağındayız ve bence bu çağda tüm bireylerin bir blog sayfasi olmalı.</p>
 <p>Yazmak bir kültürdür<br>
-Bu konu için Yusuf İpek bir yayın yapmıştı kendisinin her adımını takip ederim :D <a href="https://www.youtube.com/live/ZVUIxt5lYaQ?si=HxpOzObMXb2LYuMh">Konuklarımızla neden ve nasıl web sitesi sahibi olmalıyız?</a><br>
+Bu konu için Yusuf İpek bir yayın yapmıştı kendisinin her adımını takip ederim :grinning: <a href="https://www.youtube.com/live/ZVUIxt5lYaQ?si=HxpOzObMXb2LYuMh">Konuklarımızla neden ve nasıl web sitesi sahibi olmalıyız?</a><br>
 İmkanlar da geliştiği için masraflı bir yöntem değil github+vercel veya direkt github pages kullanılarak blog sayfamızı elde edebiliyoruz.<br>
 Yalan yok .github.io alan adına sahip bir site gerçekten gereksiz uzun gözüküyor.<br>
 Benim gözümü kanatıyor en azından.<br>
