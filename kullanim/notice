@@ -1,0 +1,5 @@
+warning, info, note, tip
+
+{{< notice warning >}}
+This is a warning notice. Be warned!
+{{< /notice >}}
