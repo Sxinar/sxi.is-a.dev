@@ -4,7 +4,6 @@ title: 'Kendi subdomaininizi edinin: "Karşınızda is-a.dev"'
 description: Github sayfalarınız için kendi custom subdomaininizi edinin.
 author: Sxinar
 date: 2024-07-02
-cover: /media/72358814.png
 ---
 Arkadaşlar herkese merhabalar nasılsınız?  
 Malum artık teknoloji çağındayız ve bence bu çağda tüm bireylerin bir blog sayfasi olmalı.
