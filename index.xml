@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Sxinar</title><link>https://sxi.is-a.dev/</link><description>Recent content on Sxinar</description><generator>Hugo -- 0.128.1</generator><language>tr</language><lastBuildDate>Thu, 20 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://sxi.is-a.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Merhaba Dünya</title><link>https://sxi.is-a.dev/post/merhaba/</link><pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate><guid>https://sxi.is-a.dev/post/merhaba/</guid><description>Bu bir tanıtım yazısıdır sıkıcı olabilir
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Sxinar</title><link>https://sxi.is-a.dev/</link><description>Recent content on Sxinar</description><generator>Hugo -- 0.128.1</generator><language>tr</language><lastBuildDate>Tue, 02 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://sxi.is-a.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Merhaba Dünya</title><link>https://sxi.is-a.dev/post/merhaba/</link><pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate><guid>https://sxi.is-a.dev/post/merhaba/</guid><description>Bu bir tanıtım yazısıdır sıkıcı olabilir
 1. merhaba Merhaba ben Sxinar burada önemli duyuru ve blog yazılarımı ve bütün link adreslerimi bulabilirsiniz.
 Blog’um, RSS destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz RSS okuyucunuz üzerinden blogumu takibe alabilirsiniz.</description><content:encoded><![CDATA[<style type="text/css">
      
@@ -124,6 +124,40 @@ Blog’um, RSS destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz
 <p>Merhaba ben Sxinar burada önemli duyuru ve blog yazılarımı ve bütün link adreslerimi bulabilirsiniz.</p>
 <hr>
 <p>Blog’um, RSS destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz RSS okuyucunuz üzerinden blogumu takibe alabilirsiniz.</p>
+]]></content:encoded></item><item><title>Kendi subdomaininizi edinin: "Karşınızda is-a.dev"</title><link>https://sxi.is-a.dev/post/2024-07-02-kendi-subdomaininizi-edinin-karsinizda-is-adev/</link><pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate><guid>https://sxi.is-a.dev/post/2024-07-02-kendi-subdomaininizi-edinin-karsinizda-is-adev/</guid><description>Github sayfalarınız için kendi custom subdomaininizi edinin.</description><content:encoded><![CDATA[<p>Arkadaşlar herkese merhabalar nasılsınız?<br>
+Malum artık teknoloji çağındayız ve bence bu çağda tüm bireylerin bir blog sayfasi olmalı.</p>
+<p>Yazmak bir kültürdür<br>
+Bu konu için Yusuf İpek bir yayın yapmıştı kendisinin her adımını takip ederim :D <a href="https://www.youtube.com/live/ZVUIxt5lYaQ?si=HxpOzObMXb2LYuMh">Konuklarımızla neden ve nasıl web sitesi sahibi olmalıyız?</a><br>
+İmkanlar da geliştiği için masraflı bir yöntem değil github+vercel veya direkt github pages kullanılarak blog sayfamızı elde edebiliyoruz.<br>
+Yalan yok .github.io alan adına sahip bir site gerçekten gereksiz uzun gözüküyor.<br>
+Benim gözümü kanatıyor en azından.<br>
+Tam bu esnada imdadımıza “is-a.dev” yetişiyor.<br>
+Yalan yok bu alan adının da .github.io alan adından üstün bir yanı yok ama daha kısa en azından.<br>
+Ayrıca github dışında projeleriniz için de kullanabilirsiniz.<br>
+Peki nasıl “is-a.dev” alan adına sahip olabilirim?</p>
+<!-- raw HTML omitted -->
+<ol>
+<li>
+<p>Öncelikle <a href="https://is-a.dev/">İs-a.dev adresine gidiyoruz</a> (Meraklısına)</p>
+</li>
+<li>
+<p>Daha sonra <a href="https://github.com/is-a-dev/register">Github reposuna gidiyoruz.</a></p>
+</li>
+<li>
+<p>Daha sonra ise <a href="https://github.com/is-a-dev/register/fork">Bu bağlantıya tıklayarak projeyi forkluyoruz.</a></p>
+</li>
+<li>
+<p>Daha sonra forkladığımız proje sayfasına giriyoruz.</p>
+</li>
+<li>
+<p>Ben kendi adıma konuşuyorum /domains adresine gidiyoruz ve “kendi-adin.json” adlı bir dosya oluşturuyoruz.</p>
+</li>
+<li>
+<p><code>{ &quot;owner&quot;: { &quot;username&quot;: &quot;sxinar&quot;, &quot;email&quot;: &quot;ornek@sxinar.com.tr&quot; }, &quot;record&quot;: { &quot;URL&quot;: &quot;https://sxonar.com.tr&quot; } }</code><br>
+Dosyasını yapıştırıyoruz fakat siz düzenleme yapacaksınız daha sonra pull request atıyoruz ve alan adı kaydıni bekliyoruz.</p>
+</li>
+</ol>
+<!-- raw HTML omitted -->
 ]]></content:encoded></item><item><title>Proje Adı</title><link>https://sxi.is-a.dev/proje/proje/</link><pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate><guid>https://sxi.is-a.dev/proje/proje/</guid><description>Bu, proje açıklamasıdır.</description><content:encoded>&lt;p>Bu, proje içeriğidir. Burada projeniz hakkında detaylı bilgi verebilirsiniz.&lt;/p></content:encoded></item><item><title>GSI nedir nasıl kurulur?</title><link>https://sxi.is-a.dev/post/gsi-kurulumu/</link><pubDate>Sun, 02 Jun 2024 00:00:00 +0000</pubDate><guid>https://sxi.is-a.dev/post/gsi-kurulumu/</guid><description>Merhaba
 Bugün yazımda Custom rom derlenmeyen-destek almayan cihazlar için alternatif rom olan &amp;ldquo;GSI&amp;rdquo; nedir onu anlatacağım.
 GSI nedir? GSI&amp;rsquo;nın açılımı Generic System İmage olup Türkçe olarak Genel Sistem İmajı (Jenerik olarak da söylenebilir). Ayrıca Project Treble olarak geçer. AOSP ve diğer Custom ROM dağıtımlarının GSI ları bulunmakta. GSI bir rom değildir! Ve bunların bir listesi mevcut. Aşağıda vereceğim.
