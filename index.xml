@@ -127,7 +127,7 @@ Blog’um, RSS destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz
 ]]></content:encoded></item><item><title>Kendi subdomaininizi edinin: "Karşınızda is-a.dev"</title><link>https://sxi.is-a.dev/post/2024-07-02-kendi-subdomaininizi-edinin-karsinizda-is-adev/</link><pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate><guid>https://sxi.is-a.dev/post/2024-07-02-kendi-subdomaininizi-edinin-karsinizda-is-adev/</guid><description>Github sayfalarınız için kendi custom subdomaininizi edinin.</description><content:encoded><![CDATA[<p>Arkadaşlar herkese merhabalar nasılsınız?<br>
 Malum artık teknoloji çağındayız ve bence bu çağda tüm bireylerin bir blog sayfasi olmalı.</p>
 <p>Yazmak bir kültürdür.</p>
-<p>Bu konu için Yusuf İpek bir yayın yapmıştı kendisinin her adımını takip ederim {{ emojify &ldquo;:grinning:&rdquo; }}</p>
+<p>Bu konu için Yusuf İpek bir yayın yapmıştı kendisinin her adımını takip ederim 😀</p>
 <p><a href="https://www.youtube.com/live/ZVUIxt5lYaQ?si=2jsbFcuFusVNqQQD">Konuklarımızla neden ve nasıl web sitesi sahibi olmalıyız?</a></p>
 <p>İmkanlar da geliştiği için masraflı bir yöntem değil github+vercel veya direkt github pages kullanılarak blog sayfamızı elde edebiliyoruz.Yalan yok .github.io alan adına sahip bir site gerçekten gereksiz uzun gözüküyor.Benim gözümü kanatıyor en azından.Tam bu esnada imdadımıza “is-a.dev” yetişiyor.Yalan yok bu alan adının da .github.io alan adından üstün bir yanı yok ama daha kısa en azından.Ayrıca github dışında projeleriniz için de kullanabilirsiniz.Peki nasıl “is-a.dev” alan adına sahip olabilirim?</p>
 <!-- raw HTML omitted -->
