@@ -11,8 +11,7 @@ Malum artık teknoloji çağındayız ve bence bu çağda tüm bireylerin bir bl
 Yazmak bir kültürdür.
 
 Bu konu için Yusuf İpek bir yayın yapmıştı kendisinin her adımını takip ederim 😀
-
-[Konuklarımızla neden ve nasıl web sitesi sahibi olmalıyız?](https://www.youtube.com/live/ZVUIxt5lYaQ?si=2jsbFcuFusVNqQQD)
+{{< youtube ZVUIxt5lYaQ >}}
 
 İmkanlar da geliştiği için masraflı bir yöntem değil github+vercel veya direkt github pages kullanılarak blog sayfamızı elde edebiliyoruz.Yalan yok .github.io alan adına sahip bir site gerçekten gereksiz uzun gözüküyor.Benim gözümü kanatıyor en azından.Tam bu esnada imdadımıza “is-a.dev” yetişiyor.Yalan yok bu alan adının da .github.io alan adından üstün bir yanı yok ama daha kısa en azından.Ayrıca github dışında projeleriniz için de kullanabilirsiniz.Peki nasıl “is-a.dev” alan adına sahip olabilirim?
 
