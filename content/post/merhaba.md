@@ -3,6 +3,7 @@ published: true
 title: Merhaba Dünya
 author: Sxinar
 date: 2024-04-02
+weight: 1
 ---
 ![](/images/hello.gif)
 
