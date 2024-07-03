@@ -3,7 +3,7 @@ media:
   output: /images
 content:
   - name: posts
-    label: Posts
+    label: Yazılar
     type: collection
     path: content/post
     view:
