@@ -101,7 +101,10 @@ params:
     assets:
     disableHLJS: true
     disableFingerprinting: false
-    favicon: https://avatars.githubusercontent.com/u/130384567
+    favicon: "favicons/favicon.ico"
+    favicon16x16: "favicons/favicon-16x16.png"
+    favicon32x32: "favicons/favicon-32x32.png"
+    apple_touch_icon: "favicons/apple-touch-icon.png"
   
     editPost:
         URL: "https://github.com/sxinar/sxinar.github.io/tree/main/content"
