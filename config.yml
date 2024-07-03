@@ -101,7 +101,7 @@ params:
     assets:
     disableHLJS: true
     disableFingerprinting: false
-    favicon: "https://avatars.githubusercontent.com/u/130384567"
+    favicon: https://avatars.githubusercontent.com/u/130384567
   
     editPost:
         URL: "https://github.com/sxinar/sxinar.github.io/tree/main/content"
