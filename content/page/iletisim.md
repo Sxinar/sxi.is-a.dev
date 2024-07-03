@@ -1,5 +1,10 @@
 ---
+published: false
 title: İletişim
+description: Benimle iletişime geçmeniz gerekiyorsa bu sayfadan yararlanabilirsiniz
+author: Sxinar
+date: 2024-07-03
+cover: /images/contact_mail_24dp_FILL0_wght400_GRAD0_opsz24.png
 ---
 Merhaba sevgili okurum.
 Yazdıklarım hoşuna gittiyse,yazılarıma destek sunmak isterseniz,yazılarımda eksik bulduysanız,yazılarımdan size ait olanı mı buldunuz?
