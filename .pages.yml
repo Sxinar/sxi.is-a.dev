@@ -14,5 +14,4 @@ content:
       - { name: description, label: Description, type: string }
       - { name: author, label: Author, type: string }
       - { name: date, label: Date, type: date }
-      - { name: cover, label: Cover image, type: image }
       - { name: body, label: Body, type: rich-text }
