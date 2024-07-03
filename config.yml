@@ -64,6 +64,7 @@ params:
     title: "Sxinar"
     description: "Açıklama"
     author: Sxinar
+    favicon: false
     DateFormat: "2 January, 2006"
     ShowPostNavLinks: true
     defaultTheme: auto
