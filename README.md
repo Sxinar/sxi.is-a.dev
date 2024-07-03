@@ -16,5 +16,5 @@ mailto:me.unreal462@simplelogin.com
 
 https://sxi.is-a.dev/chat
 
-https://sxi.is-a.dev/iletisim adreslerinden benimle iletişime geçebilirsiniz.
+https://sxi.is-a.dev/page/iletisim adreslerinden benimle iletişime geçebilirsiniz.
 
