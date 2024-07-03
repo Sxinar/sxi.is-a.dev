@@ -58,7 +58,7 @@ params:
     ...
     backend:
       name: "github"
-      repo: "sxinar/sxinar.github.io"
+      repo: "https://github.com/sxinar/sxinar.github.io"
     collections:
       blog:
         create: true
