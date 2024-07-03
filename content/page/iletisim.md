@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: İletişim
 description: Benimle iletişime geçmeniz gerekiyorsa bu sayfadan yararlanabilirsiniz
 author: Sxinar
