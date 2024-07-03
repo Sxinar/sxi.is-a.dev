@@ -40,13 +40,33 @@ menu:
       url: /ara/
       weight: 7
 
+module:
+  imports:
+  - path: github.com/privatemaker/headless-cms
+
 outputs:
     home:
         - HTML
         - RSS
+        - HeadlessCMSConfig
         - JSON
 
 params:
+  headless_cms:
+    engine: "sveltia"
+    site_url: "https://sxi.is-a.dev"
+    ...
+    backend:
+      name: "github"
+      repo: "sxinar/sxinar.github.io"
+    collections:
+      blog:
+        create: true
+        fields:
+          - label: "Title"
+            name: "title"
+            widget: "string"
+        ...
     ShowShareButtons: true
     ShowReadingTime: true
     ShowToc: true
