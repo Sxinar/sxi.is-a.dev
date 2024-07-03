@@ -8,8 +8,6 @@ date: 2024-04-02
 
 {{< notice warning >}} Bu bir tanıtım yazısıdır sıkıcı olabilir {{< /notice >}}
 
-# 1\. merhaba
-
 Merhaba ben Sxinar burada önemli duyuru ve blog yazılarımı ve bütün link adreslerimi bulabilirsiniz.
 
 * * *
