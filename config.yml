@@ -64,7 +64,6 @@ params:
     title: "Sxinar"
     description: "Açıklama"
     author: Sxinar
-    favicon: false
     DateFormat: "2 January, 2006"
     ShowPostNavLinks: true
     defaultTheme: auto
@@ -102,11 +101,8 @@ params:
     assets:
     disableHLJS: true
     disableFingerprinting: false
-    favicon: "favicons/favicon.ico"
-    favicon16x16: "favicons/favicon-16x16.png"
-    favicon32x32: "favicons/favicon-32x32.png"
-    apple_touch_icon: "favicons/apple-touch-icon.png"
-    
+    favicon: "https://avatars.githubusercontent.com/u/130384567"
+  
     editPost:
         URL: "https://github.com/sxinar/sxinar.github.io/tree/main/content"
         Text: "Düzenle"
