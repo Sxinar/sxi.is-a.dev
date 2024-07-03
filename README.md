@@ -1,13 +1,18 @@
-## Built With
+## Neler kullanıldı?
 
-This website is designed with components that is **fast**, reliable and cares about your privacy. The components we use are as follows.
+Bu web sayfasi 
 
 * [Hugo](https://gohugo.io/)
 * [PaperMod](https://github.com/adityatelange/hugo-PaperMod/)
+kullanarak yapılmıştır ayrıca yazılar Sxinar tarafından yapılmıştır.
+benimle site hakkında iletişime gecmek isterseniz https://sxi.is-a.dev/chat adresine gidebilirsiniz.
 
-## License
+## Lisans
 
-Distributed under the ?? License. See `LICENSE` for more information.
+Katkıda mi bulunacaksınız?? License.  Daha fazlasi icin `LICENSE` bakabilirsiniz.
 
-## Contact
+## İletişim:
+mailto:me.unreal462@simplelogin.com
+https://sxi.is-a.dev/chat
+https://sxi.is-a.dev/iletisim adreslerinden benimle iletişime geçebilirsiniz.
 
