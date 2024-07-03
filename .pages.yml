@@ -16,6 +16,7 @@ content:
       - { name: date, label: Date, type: date }
       - { name: cover, label: Cover image, type: image }
       - { name: body, label: Body, type: rich-text }
+
 content:
   - name: yazilim
     label: Haftanın yazılımı serisi
