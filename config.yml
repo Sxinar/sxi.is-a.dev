@@ -99,7 +99,7 @@ params:
           url: "https://sxinar.github.io/index.xml"
       
     assets:
-        favicon: "https://avatars.githubusercontent.com/u/130384567"
+        favicon: "https://btt.community/user_avatar/btt.community/sxinar/288/7779_2.png"
     
     editPost:
         URL: "https://github.com/sxinar/sxinar.github.io/tree/main/content"
