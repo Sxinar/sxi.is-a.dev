@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Sxinar</title><link>https://sxi.is-a.dev/</link><description>Recent content on Sxinar</description><generator>Hugo -- 0.128.1</generator><language>tr</language><lastBuildDate>Tue, 02 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://sxi.is-a.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Merhaba Dünya</title><link>https://sxi.is-a.dev/post/merhaba/</link><pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate><guid>https://sxi.is-a.dev/post/merhaba/</guid><description>Bu bir tanıtım yazısıdır sıkıcı olabilir
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Sxinar</title><link>https://sxi.is-a.dev/</link><description>Recent content on Sxinar</description><generator>Hugo -- 0.128.1</generator><language>tr</language><lastBuildDate>Wed, 03 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://sxi.is-a.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Merhaba Dünya</title><link>https://sxi.is-a.dev/post/merhaba/</link><pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate><guid>https://sxi.is-a.dev/post/merhaba/</guid><description>Bu bir tanıtım yazısıdır sıkıcı olabilir
 1. merhaba Merhaba ben Sxinar burada önemli duyuru ve blog yazılarımı ve bütün link adreslerimi bulabilirsiniz.
 Blog’um, RSS destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz RSS okuyucunuz üzerinden blogumu takibe alabilirsiniz.</description><content:encoded><![CDATA[<style type="text/css">
      
@@ -124,6 +124,16 @@ Blog’um, RSS destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz
 <p>Merhaba ben Sxinar burada önemli duyuru ve blog yazılarımı ve bütün link adreslerimi bulabilirsiniz.</p>
 <hr>
 <p>Blog’um, RSS destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz RSS okuyucunuz üzerinden blogumu takibe alabilirsiniz.</p>
+]]></content:encoded></item><item><title>İletişim</title><link>https://sxi.is-a.dev/page/iletisim/</link><pubDate>Wed, 03 Jul 2024 00:00:00 +0000</pubDate><guid>https://sxi.is-a.dev/page/iletisim/</guid><description>Benimle iletişime geçmeniz gerekiyorsa bu sayfadan yararlanabilirsiniz</description><content:encoded><![CDATA[<p>Merhaba sevgili okurum.
+Yazdıklarım hoşuna gittiyse,yazılarıma destek sunmak isterseniz,yazılarımda eksik bulduysanız,yazılarımdan size ait olanı mı buldunuz?
+O halde benimle iletişime geçebilirsiniz.
+Benimle iletişim kurmak isterseniz:</p>
+<p><strong>e-posta</strong> <a href="mailto:me.unreal462@simplelogin.com">me.unreal462@simplelogin.com</a>
+Veya</p>
+<p><!-- raw HTML omitted -->Bu Bir Butondur<!-- raw HTML omitted --></p>
+<p><em>Blog&rsquo;um, <a href="https://sxinar.github.io/index.xml">RSS</a> destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz RSS okuyucunuz üzerinden blogumu takibe alabilirsiniz.</em></p>
+<hr>
+<p>Bu site, <a href="https://gohugo.io/">Hugo</a> kullanılarak ve <a href="https://github.com/adityatelange/hugo-PaperMod/">PaperMod</a> temasıyla oluşturulmuştur. Ayrıca bu site en güncel HUGO ve PaperMod temasını anında güncelleme desteklidir.</p>
 ]]></content:encoded></item><item><title>Kendi subdomaininizi edinin: "Karşınızda is-a.dev"</title><link>https://sxi.is-a.dev/post/2024-07-02-kendi-subdomaininizi-edinin-karsinizda-is-adev/</link><pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate><guid>https://sxi.is-a.dev/post/2024-07-02-kendi-subdomaininizi-edinin-karsinizda-is-adev/</guid><description>Github sayfalarınız için kendi custom subdomaininizi edinin.</description><content:encoded><![CDATA[<p>Arkadaşlar herkese merhabalar nasılsınız?<br>
 Malum artık teknoloji çağındayız ve bence bu çağda tüm bireylerin bir blog sayfasi olmalı.</p>
 <p>Yazmak bir kültürdür.</p>
