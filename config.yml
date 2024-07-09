@@ -20,6 +20,7 @@ languages:
       homeInfoParams:
         Title: "Sxinar"
         Content: Evolation Web
+        
 menu:
   main:
     - identifier: Anasayfa
