@@ -13,13 +13,13 @@ languages:
         Title: "Sxinar"
         Content: Burası benim teknoloji çiftliğim.
    en:
-    languageName: ":en:"
+    languageName: ":gb:"
     weight: 2
     params:
-      languageAltTitle: English
+      languageAltTitle: "English"
       homeInfoParams:
         Title: "Sxinar"
-        Content: example language
+        Content: Evolation Web
 menu:
   main:
     - identifier: Anasayfa
