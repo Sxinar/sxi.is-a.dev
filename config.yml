@@ -12,7 +12,14 @@ languages:
       homeInfoParams:
         Title: "Sxinar"
         Content: Burası benim teknoloji çiftliğim.
-
+   en:
+    languageName: ":en:"
+    weight: 2
+    params:
+      languageAltTitle: English
+      homeInfoParams:
+        Title: "Sxinar"
+        Content: example language
 menu:
   main:
     - identifier: Anasayfa
