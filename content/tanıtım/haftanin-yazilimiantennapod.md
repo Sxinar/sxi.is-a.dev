@@ -1,7 +1,9 @@
 ---
+published: true
 title: Haftanın yazılımı:AntennaPOD
 description: "İşlevselliği ve gizliliği ile tanınan tamamen açık kaynaklı
   Podcast dinleme programı "
+date: 2024-07-09
 ---
 **Herkese merhaba.**
 
