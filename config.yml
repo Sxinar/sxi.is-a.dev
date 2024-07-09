@@ -47,6 +47,9 @@ outputs:
         - JSON
 
 params:
+  mainSections:
+    - tanıtım
+    - blog
     ShowShareButtons: true
     ShowReadingTime: true
     ShowToc: true
