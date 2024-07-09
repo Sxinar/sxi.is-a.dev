@@ -10,16 +10,25 @@ languages:
     params:
       languageAltTitle: Turkish
       homeInfoParams:
-        Title: "Sxinar"
-        Content: Burası benim teknoloji çiftliğim.
-   en:
+        Title: "Wise Web Works"
+        Content: Yarından az önceki günden daha çok akıllı!
+  en:
     languageName: ":gb:"
     weight: 2
     params:
       languageAltTitle: "English"
       homeInfoParams:
-        Title: "Sxinar"
-        Content: Evolation Web
+        Title: "Wise Web Works"
+        Content: Smarter Web Now!
+
+  de:
+    languageName: ":de:"
+    weight: 3
+    params:
+      languageAltTitle: Deutsch
+      homeInfoParams:
+        Title: "Weise Web Jobs"
+        Content: Jetzt Weiser!
         
 menu:
   main:
