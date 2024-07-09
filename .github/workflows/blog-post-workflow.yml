@@ -11,4 +11,4 @@ jobs:
             - uses: gautamkrishnar/blog-post-workflow@master
               with: 
                 max_post_count: "4"
-                feed_list: "https://sxi.is-a.dev/i̇ndex.xml
+                feed_list: "https://sxinar.github.io/index.xml"
