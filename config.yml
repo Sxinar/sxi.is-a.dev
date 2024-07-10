@@ -2,9 +2,6 @@ baseURL: "https://sxi.is-a.dev"
 title: "Sxinar"
 DefaultContentLanguage: tr
 theme: hugo-PaperMod
-
-permalinks:
-    posts: "/:title"
     
 languages:
   tr:
@@ -48,6 +45,9 @@ outputs:
         - HTML
         - RSS
         - JSON
+
+permalinks:
+    posts: "/:title"
 
 params:
   seo:
