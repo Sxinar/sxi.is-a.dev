@@ -47,6 +47,11 @@ outputs:
         - JSON
 
 params:
+  grafik:
+    enabled: true
+    theme: "light" # or "dark"
+    graphHeight: 300
+    graphWidth: 600
     ShowShareButtons: true
     ShowReadingTime: true
     ShowToc: true
