@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on Sxinar</title><link>https://sxi.is-a.dev/post/</link><description>Recent content in Posts on Sxinar</description><generator>Hugo -- 0.128.2</generator><language>tr</language><lastBuildDate>Tue, 02 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://sxi.is-a.dev/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Merhaba Dünya</title><link>https://sxi.is-a.dev/post/merhaba/</link><pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate><guid>https://sxi.is-a.dev/post/merhaba/</guid><description>Merhaba ben Sxinar burada önemli duyuru ve blog yazılarımı ve bütün link adreslerimi bulabilirsiniz.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on Sxinar</title><link>https://sxi.is-a.dev/post/</link><description>Recent content in Posts on Sxinar</description><generator>Hugo -- 0.128.2</generator><language>tr</language><lastBuildDate>Wed, 10 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://sxi.is-a.dev/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Merhaba Dünya</title><link>https://sxi.is-a.dev/post/merhaba/</link><pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate><guid>https://sxi.is-a.dev/post/merhaba/</guid><description>Merhaba ben Sxinar burada önemli duyuru ve blog yazılarımı ve bütün link adreslerimi bulabilirsiniz.
 Blog’um, RSS destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz RSS okuyucunuz üzerinden blogumu takibe alabilirsiniz.
 {{- partial &amp;ldquo;newsletter.html&amp;rdquo; . -}}</description><content:encoded><![CDATA[<p><img loading="lazy" src="/images/hello.gif" alt=""  />
 </p>
@@ -6,6 +6,130 @@ Blog’um, RSS destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz
 <hr>
 <p>Blog’um, RSS destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz RSS okuyucunuz üzerinden blogumu takibe alabilirsiniz.</p>
 <p>{{- partial &ldquo;newsletter.html&rdquo; . -}}</p>
+]]></content:encoded></item><item><title>Yorumlarınızı 3. Şahıslarla paylaşmayın: Cusdis</title><link>https://sxi.is-a.dev/post/2024-07-10-yorumlarinizi-3-sahislarla-paylasmayin-cusdis/</link><pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate><guid>https://sxi.is-a.dev/post/2024-07-10-yorumlarinizi-3-sahislarla-paylasmayin-cusdis/</guid><description>Yorumlarınızı 3. Şahıslarla paylaşmak zorunda değilsiniz açık kaynaklı yorum sistemi olan Cusdis ile tanışın</description><content:encoded><![CDATA[<p><img loading="lazy" src="/images/images-1.png" alt=""  />
+</p>
+<p>Günümüzde neredeyse bütün bilinçli tüketicilerin kendine ait web siteleri var.</p>
+<p>Eğer sizde Disqus gibi şirketleri kullanarak yorumlarınızı 3. Taraf şahıslarla paylaşmak istemiyorsanız Cusdis ile tanışın.</p>
+<h1 id="cusdis-nedir-">Cusdis nedir ?</h1>
+<p>Disqus&rsquo;a açık kaynaklı, hafif (~5kb sıkıştırılmış), gizlilik dostu alternatif aynı zamanda yorumlarınızı kendi database tabanınızda saklama imkanı veren bir yorum sistemidir.</p>
+<h1 id="özellikler">Özellikler:</h1>
+<ul>
+<li>
+<p>Yorum aldığınızda e-mail aracılığıyla bildirim alabilme</p>
+</li>
+<li>
+<p>Webhook ekleyerek telegram botu ile mesaj gelince tetikleyebirsiniz.</p>
+</li>
+<li>
+<p>Ücretsiz hesap ile ayda 100 adet yoruma kadar destekli.</p>
+</li>
+<li>
+<p>Self host yapılabilir yani kendi yorum sisteminizi kendi veritabanımızda saklayabilirsiniz.</p>
+</li>
+<li>
+<p>Evrensel yerleştirme kodu</p>
+</li>
+<li>
+<p>Hızlı kurulum</p>
+</li>
+<li>
+<p>Birden çok dil desteği</p>
+</li>
+<li>
+<p>Yorumlara karşılık verme seçeneği (alt alta yorum)</p>
+</li>
+<li>
+<p>Cusdis&rsquo;i her web sitesine yerleştirebilirsiniz.</p>
+</li>
+<li>
+<p>Hafif sdk</p>
+<ul>
+<li>Sitenize eklediğiniz SDK sadece 5kb&rsquo;dir (gzip&rsquo;lenmiştir). Disqus&rsquo;a kıyasla (24kb&rsquo;dir) oldukça hafiftir.</li>
+</ul>
+</li>
+<li>
+<p>Eposta bildirimi</p>
+</li>
+<li>
+<p>Disqus&rsquo;tan tek tıklamayla veri aktarımı</p>
+</li>
+<li>
+<p>Moderasyon panosu</p>
+<ul>
+<li>Yorum yapmak için kullanıcı girişi gerektirmediğimizden, moderatör onaylayana kadar tüm yorumlar varsayılan olarak GÖRÜNTÜLENMEZ. Bunun için bir moderasyon panosu sağlıyoruz.</li>
+</ul>
+</li>
+</ul>
+<h1 id="disqusa-kıyasla">Disqus’a kıyasla</h1>
+<p><img loading="lazy" src="/images/images%20%281%29.png" alt=""  />
+</p>
+<p>Şimdi buraya kadar okudusanız neden Disqus gibi sürekli güncellenen bir yorum sistemi varken daha şirket bile olmayan cusdis kullanayım diyebilirsiniz.</p>
+<p>Cusdis, Disqus’a TAMAMEN bir alternatif olarak tasarlanmamıştır; küçük siteler (örneğin statik blogunuz) için minimal bir gömülü yorum aracı uygulamayı amaçlamaktadır.</p>
+<h2 id="cusdisin-artıları-ve-eksileri-şunlardır">Cusdis’in artıları ve eksileri şunlardır:</h2>
+<p><img loading="lazy" src="/images/cusdis.jpg" alt=""  />
+</p>
+<h2 id="artıları"><strong>Artıları</strong></h2>
+<ul>
+<li>
+<p>Cusdis açık kaynaklı ve kendi kendini barındırabilen bir uygulamadır, verileriniz size aittir.</p>
+</li>
+<li>
+<p>SDK hafiftir (~5kb sıkıştırılmış)</p>
+</li>
+<li>
+<p>Cusdis yorumcunun oturum açmasını gerektirmez. Hiçbir şekilde çerez kullanmıyoruz.</p>
+</li>
+</ul>
+<h3 id="eksileri">Eksileri</h3>
+<ul>
+<li>
+<p>Cusdis erken geliştirme aşamasındadır</p>
+</li>
+<li>
+<p>Spam filtremiz olmadığı için varsayılan olarak onaylayana kadar görüntülenmeyen yorumları manuel olarak denetlemeniz gerekir.</p>
+</li>
+<li>
+<p>Disqus bir şirket, biz değiliz</p>
+</li>
+</ul>
+<h1 id="web-sitenize-entegre-etme">Web sitenize entegre etme</h1>
+<h2 id="hugo">HUGO</h2>
+<p><a href="http://Cusdis.com">Cusdis.com</a><a href="http://cusdis.com/">&lsquo;da</a> bir hesap oluşturun<a href="http://cusdis.com/">.</a></p>
+<!-- raw HTML omitted -->
+<pre tabindex="0"><code>      &lt;!-- Comments by Cusdis --&gt;
+      &lt;h4&gt;Comments:&lt;/h4&gt;
+      &lt;div id=&#34;cusdis_thread&#34; data-host=&#34;https://cusdis.com&#34;
+        data-app-id=&#34;See your dashbord on Cusdis&#34;
+        data-page-id=&#34;{{ .File.UniqueID }}&#34; data-page-url=&#34;{{ .Permalink }}&#34;
+        data-page-title=&#34;{{ .Title }}&#34;&gt;&lt;/div&gt;
+      &lt;script async defer src=&#34;https://cusdis.com/js/cusdis.es.js&#34;&gt;&lt;/script&gt;
+</code></pre><!-- raw HTML omitted -->
+<h2 id="ghost">Ghost</h2>
+<ul>
+<li><a href="http://Cusdis.com">Cusdis.com</a> üzerinde hesap açın.</li>
+</ul>
+<p><img loading="lazy" src="/images/image-52.png" alt=""  />
+</p>
+<ul>
+<li>
+<p>Öncelikle yeni bir site kaydet butonuna tıklayınız.<br>
+<img loading="lazy" src="/images/image-53.png" alt=""  />
+</p>
+</li>
+<li>
+<p>Daha sonra embeeded kodu yani yerleştirme kodunu kaydedin.</p>
+</li>
+</ul>
+<p><img loading="lazy" src="/images/image-54.png" alt=""  />
+</p>
+<p><code>data-app-id</code> kodunuzu kopyalayın.</p>
+<p><img loading="lazy" src="/images/image-55.png" alt=""  />
+</p>
+<ul>
+<li>Daha sonra ghost üzerinde setting -&gt; tasarım kısmında &ldquo;Yorum sisteminizi seçiyorsunuz&rdquo; ve en son id yazarak tamamlıyoruz.</li>
+</ul>
+<p>Bu kadar adımlarımız ile sitemize entegre ettik.</p>
+<p>İleri zamanlarda jeekly next.js gibi static web generator cusdis entegre etme adımlarını ekleyeceğim.</p>
 ]]></content:encoded></item><item><title>Kendi subdomaininizi edinin: "Karşınızda is-a.dev"</title><link>https://sxi.is-a.dev/post/2024-07-02-kendi-subdomaininizi-edinin-karsinizda-is-adev/</link><pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate><guid>https://sxi.is-a.dev/post/2024-07-02-kendi-subdomaininizi-edinin-karsinizda-is-adev/</guid><description>Github sayfalarınız için kendi custom subdomaininizi edinin.</description><content:encoded><![CDATA[<p>Arkadaşlar herkese merhabalar nasılsınız?<br>
 Malum artık teknoloji çağındayız ve bence bu çağda tüm bireylerin bir blog sayfasi olmalı.</p>
 <p>Yazmak bir kültürdür.</p>
