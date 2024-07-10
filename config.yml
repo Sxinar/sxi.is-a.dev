@@ -3,6 +3,9 @@ title: "Sxinar"
 DefaultContentLanguage: tr
 theme: hugo-PaperMod
 
+permalinks:
+    posts: "/:title"
+    
 languages:
   tr:
     languageName: ":tr:"
@@ -47,6 +50,11 @@ outputs:
         - JSON
 
 params:
+  seo:
+    title: "Sxinar"
+    description: "Burası Sxinarin kendine ait blogu"
+    keywords: "sxinar, blog"
+    author: "Sxinar"
     ShowShareButtons: true
     ShowReadingTime: true
     ShowToc: true
