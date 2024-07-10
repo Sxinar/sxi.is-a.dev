@@ -59,7 +59,7 @@ params:
     buildFuture: false
     buildExpired: false
     env: production
-    gtm_id: "GTM-5XKDQD65"
+    gtm_id: "G-S2ZEZQCLP9"
     ShowBreadCrumbs: true
     title: "Sxinar"
     description: "Açıklama"
