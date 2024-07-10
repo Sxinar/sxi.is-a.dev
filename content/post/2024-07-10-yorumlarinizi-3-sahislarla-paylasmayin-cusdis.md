@@ -6,8 +6,8 @@ description: Yorumlarınızı 3. Şahıslarla paylaşmak zorunda değilsiniz aç
 author: Sxinar
 date: 2024-07-10
 ---
-![](/images/images-1.png)  
-  
+![](/images/images-1.png)
+
 Günümüzde neredeyse bütün bilinçli tüketicilerin kendine ait web siteleri var.
 
 Eğer sizde Disqus gibi şirketleri kullanarak yorumlarınızı 3. Taraf şahıslarla paylaşmak istemiyorsanız Cusdis ile tanışın.
@@ -79,6 +79,10 @@ Cusdis, Disqus’a TAMAMEN bir alternatif olarak tasarlanmamıştır; küçük s
 *   Disqus bir şirket, biz değiliz
     
 
+# Uygulamadan görüntüler
+
+![](/images/landing.png)![](/images/Screenshot_2024-07-10-10-35-33-295_com.android.chrome.png)![](/images/Screenshot_2024-07-10-10-35-56-570_com.android.chrome.png)![](/images/Screenshot_2024-07-10-10-36-08-057_com.android.chrome.png)![](/images/Screenshot_2024-07-10-10-36-35-621_com.android.chrome.png)
+
 # Web sitenize entegre etme
 
 ## HUGO
@@ -112,11 +116,10 @@ Cusdis, Disqus’a TAMAMEN bir alternatif olarak tasarlanmamıştır; küçük s
 *   Daha sonra embeeded kodu yani yerleştirme kodunu kaydedin.
     
 
-![](/images/image-54.png)  
-  
+![](/images/image-54.png)
+
 `data-app-id` kodunuzu kopyalayın.
 
-  
 ![](/images/image-55.png)
 
 *   Daha sonra ghost üzerinde setting -> tasarım kısmında "Yorum sisteminizi seçiyorsunuz" ve en son id yazarak tamamlıyoruz.
