@@ -1,6 +1,6 @@
 ---
 published: true
-title: "Yorumlarınızı 3. Şahıslarla paylaşmayın: Cusdis"
+title: 'Yorumlarınızı 3. Şahıslarla paylaşmayın: "Karşınızda Cusdis"'
 description: Yorumlarınızı 3. Şahıslarla paylaşmak zorunda değilsiniz açık
   kaynaklı yorum sistemi olan Cusdis ile tanışın
 author: Sxinar
