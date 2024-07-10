@@ -4,6 +4,8 @@ date: 2024-06-02
 tags: ["Custom Rom", "Android"]
 #author: "Yazar"
 draft: false
+cover:
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8w-yQZpJmu6AKl9ekXE9fe3nyboA1RxecnS65lzMdqRCV0r08Jf3yTRlo&s=10"
 ---
 
 Merhaba
