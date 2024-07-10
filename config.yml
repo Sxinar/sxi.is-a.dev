@@ -46,9 +46,6 @@ outputs:
         - RSS
         - JSON
 
-permalinks:
-    posts: "/:title"
-
 params:
   seo:
     title: "Sxinar"
