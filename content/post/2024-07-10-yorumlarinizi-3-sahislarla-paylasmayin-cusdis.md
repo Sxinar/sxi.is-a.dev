@@ -5,8 +5,9 @@ description: Yorumlarınızı 3. Şahıslarla paylaşmak zorunda değilsiniz aç
   kaynaklı yorum sistemi olan Cusdis ile tanışın
 author: Sxinar
 date: 2024-07-10
+cover:
+  image: "/images/images-1.png" # Resmin yolu
 ---
-![](/images/images-1.png)
 
 Günümüzde neredeyse bütün bilinçli tüketicilerin kendine ait web siteleri var.
 
