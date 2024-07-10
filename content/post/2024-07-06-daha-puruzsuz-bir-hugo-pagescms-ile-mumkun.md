@@ -5,8 +5,9 @@ description: "Static web site oluşturucusu olarak Hugo kullanıyor fakat markdo
   ile yazmaktan bıkan yazarlar bu rehber sizin için "
 author: Sxinar
 date: 2024-07-06
+cover:
+  image: "/images/images.jpeg"
 ---
-![](/images/images.jpeg)
 
 Merhaba arkadaşlar ben Sxinar.
 
