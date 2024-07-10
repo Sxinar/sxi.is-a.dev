@@ -6,7 +6,7 @@ Blog’um, RSS destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz
 <hr>
 <p>Blog’um, RSS destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz RSS okuyucunuz üzerinden blogumu takibe alabilirsiniz.</p>
 <p>{{- partial &ldquo;newsletter.html&rdquo; . -}}</p>
-]]></content:encoded></item><item><title>Yorumlarınızı 3. Şahıslarla paylaşmayın: Cusdis</title><link>https://sxi.is-a.dev/post/2024-07-10-yorumlarinizi-3-sahislarla-paylasmayin-cusdis/</link><pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate><guid>https://sxi.is-a.dev/post/2024-07-10-yorumlarinizi-3-sahislarla-paylasmayin-cusdis/</guid><description>Yorumlarınızı 3. Şahıslarla paylaşmak zorunda değilsiniz açık kaynaklı yorum sistemi olan Cusdis ile tanışın</description><content:encoded><![CDATA[<p><img loading="lazy" src="/images/images-1.png" alt=""  />
+]]></content:encoded></item><item><title>Yorumlarınızı 3. Şahıslarla paylaşmayın: "Karşınızda Cusdis"</title><link>https://sxi.is-a.dev/post/2024-07-10-yorumlarinizi-3-sahislarla-paylasmayin-cusdis/</link><pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate><guid>https://sxi.is-a.dev/post/2024-07-10-yorumlarinizi-3-sahislarla-paylasmayin-cusdis/</guid><description>Yorumlarınızı 3. Şahıslarla paylaşmak zorunda değilsiniz açık kaynaklı yorum sistemi olan Cusdis ile tanışın</description><content:encoded><![CDATA[<p><img loading="lazy" src="/images/images-1.png" alt=""  />
 </p>
 <p>Günümüzde neredeyse bütün bilinçli tüketicilerin kendine ait web siteleri var.</p>
 <p>Eğer sizde Disqus gibi şirketleri kullanarak yorumlarınızı 3. Taraf şahıslarla paylaşmak istemiyorsanız Cusdis ile tanışın.</p>
