@@ -1,0 +1,95 @@
+{{ define "html" }}
+<head>
+    {{- partial "head-content.html" . -}}
+
+    <link rel="canonical" href="https://samjmck.com/" />
+
+    <!-- Not including preload links to other font files as it doesn't seem like they're being loaded by the browser anyway -->
+    <!-- I know PT Serif is included by default with macOS, but what about weight 400 of Source Sans Pro? -->
+    <!-- Anyway, I won't be including the links as it will be detrimental to overall loading performance -->
+    <link rel="preload" href="/fonts/source-sans-pro-v13-latin-600.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/source-sans-pro-v13-latin-italic.woff2" as="font" type="font/woff2" crossorigin />
+</head>
+<body>
+    <a class="skip-link" href="#introduction">Skip to introduction</a>
+
+    {{- partial "header-fixed.html" . -}}
+
+    <div class="sections">
+
+    <div class="section" id="home"></div>
+    <section class="home">
+        <div class="container">
+            <div class="text">
+                <p>
+                    <b>I can design and develop your website for you.</b>
+                </p>
+                <p>
+                    I specialise in developing <i>fast</i> websites that not only look beautiful, but also have a great user experience and help your site rank higher in search results.
+                </p>
+            </div>
+            <div class="links">
+                <a class="button black local-smooth-scroll" id="scroll-to-work" href="#work">See my work</a> <span class="email-me">or send me an email at <a href="mailto:me@samjmck.com">me@samjmck.com</a></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hack so when we link directly to the section, the section isn't behind the header -->
+    <div class="section" id="work"></div>
+    <section class="work">
+        {{- $work := (where .Paginator.Pages.ByWeight "Type" "work") -}}
+        {{- $lenPost := len $work -}}
+        {{- $leftColLen := math.Floor (div $lenPost 2) -}}
+        {{- $rightColLen := sub $lenPost $leftColLen }}
+        <ul class="left-column">
+            <li class="item introduction">
+                <p class="my-work"><b>My work</b></p>
+                <p class="work-account-links">
+                    You can find my open-source projects, including the code for this website, on my <a href="https://github.com/samjmck">Github</a> account and my designs on my <a href="https://www.dribbble.com/samjmck">Dribbble</a> profile.
+                </p>
+            </li>
+            {{- range first $leftColLen $work }}
+            {{ partial "project-item.html" . }}
+            {{- end }}
+        </ul>
+        <ul class="right-column">
+            {{- range after $leftColLen $work -}}
+            {{ partial "project-item.html" . }}
+            {{ end -}}
+        </ul>
+    </section>
+
+    <div class="section" id="contact"></div>
+    <section class="contact">
+        <div class="container">
+            <p><b>Contact me.</b></p>
+            <p>You can email me at <a href="mailto:blog.sxinar@gmail.com">blog.sxinar@gmail.com</a>.</p>
+            <p>I can also be reached via the messaging app <a href="https://t.me/samjmck">Telegram</a>.</p>
+            <p>Feel free to follow or contact me on <a href="https://twitter.com/sam_mck">Twitter</a>.</p>
+        </div>
+        <div id="email-public-key">
+            <a href="https://api.protonmail.ch/pks/lookup?op=get&search=me@samjmck.com">PGP key for encrypted email</a>
+        </div>
+    </section>
+
+    </div>
+
+    {{- partial "mobile-navigation-fixed.html" . -}}
+
+    {{ $cssOptions := dict "outputStyle" "compressed" }}
+    {{ $style := resources.Get "styles/pages/index.scss" | resources.ToCSS $cssOptions }}
+
+    <style>
+        {{ $style.Content | safeCSS }}
+    </style>
+
+    {{ $jsOptions := dict "targetPath" "index.js" "target" "es2015" "minify" true }}
+    {{ $bundle := resources.Get "scripts/pages/index.ts" | js.Build $jsOptions }}
+
+    <script>
+        {{ $bundle.Content | safeJS }}
+    </script>
+
+    {{- partial "analytics.html" . -}}
+</body>
+{{ end }}
