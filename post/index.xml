@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on Sxinar</title><link>https://sxi.is-a.dev/post/</link><description>Recent content in Posts on Sxinar</description><generator>Hugo -- 0.128.2</generator><language>tr</language><lastBuildDate>Wed, 10 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://sxi.is-a.dev/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Merhaba Dünya</title><link>https://sxi.is-a.dev/post/merhaba/</link><pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate><guid>https://sxi.is-a.dev/post/merhaba/</guid><description>Merhaba ben Sxinar burada önemli duyuru ve blog yazılarımı ve bütün link adreslerimi bulabilirsiniz.
 Blog’um, RSS destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz RSS okuyucunuz üzerinden blogumu takibe alabilirsiniz.
-{{- partial &amp;ldquo;newsletter.html&amp;rdquo; . -}}</description><content:encoded><![CDATA[<p><img loading="lazy" src="/images/hello.gif" alt=""  />
+{{ partial &amp;ldquo;search-google.html&amp;rdquo; . }}</description><content:encoded><![CDATA[<p><img loading="lazy" src="/images/hello.gif" alt=""  />
 </p>
 <p>Merhaba ben Sxinar burada önemli duyuru ve blog yazılarımı ve bütün link adreslerimi bulabilirsiniz.</p>
 <hr>
 <p>Blog’um, RSS destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz RSS okuyucunuz üzerinden blogumu takibe alabilirsiniz.</p>
-<p>{{- partial &ldquo;newsletter.html&rdquo; . -}}</p>
+<p>{{ partial &ldquo;search-google.html&rdquo; . }}</p>
 ]]></content:encoded></item><item><title>Yorumlarınızı 3. Şahıslarla paylaşmayın: "Karşınızda Cusdis"</title><link>https://sxi.is-a.dev/post/2024-07-10-yorumlarinizi-3-sahislarla-paylasmayin-cusdis/</link><pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate><guid>https://sxi.is-a.dev/post/2024-07-10-yorumlarinizi-3-sahislarla-paylasmayin-cusdis/</guid><description>Yorumlarınızı 3. Şahıslarla paylaşmak zorunda değilsiniz açık kaynaklı yorum sistemi olan Cusdis ile tanışın</description><content:encoded><![CDATA[<p><img loading="lazy" src="/images/images-1.png" alt=""  />
 </p>
 <p>Günümüzde neredeyse bütün bilinçli tüketicilerin kendine ait web siteleri var.</p>
