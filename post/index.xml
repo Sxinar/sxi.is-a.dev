@@ -1,16 +1,463 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on Sxinar</title><link>https://sxi.is-a.dev/post/</link><description>Recent content in Posts on Sxinar</description><generator>Hugo -- 0.128.2</generator><language>tr</language><lastBuildDate>Wed, 10 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://sxi.is-a.dev/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Merhaba Dünya</title><link>https://sxi.is-a.dev/post/merhaba/</link><pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate><guid>https://sxi.is-a.dev/post/merhaba/</guid><description>Merhaba ben Sxinar burada önemli duyuru ve blog yazılarımı ve bütün link adreslerimi bulabilirsiniz.
 Blog’um, RSS destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz RSS okuyucunuz üzerinden blogumu takibe alabilirsiniz.
-{{ partial &amp;ldquo;search-google.html&amp;rdquo; . }}</description></item><item><title>Yorumlarınızı 3. Şahıslarla paylaşmayın: "Karşınızda Cusdis"</title><link>https://sxi.is-a.dev/post/2024-07-10-yorumlarinizi-3-sahislarla-paylasmayin-cusdis/</link><pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate><guid>https://sxi.is-a.dev/post/2024-07-10-yorumlarinizi-3-sahislarla-paylasmayin-cusdis/</guid><description>Yorumlarınızı 3. Şahıslarla paylaşmak zorunda değilsiniz açık kaynaklı yorum sistemi olan Cusdis ile tanışın</description></item><item><title>Kendi subdomaininizi edinin: "Karşınızda is-a.dev"</title><link>https://sxi.is-a.dev/post/2024-07-02-kendi-subdomaininizi-edinin-karsinizda-is-adev/</link><pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate><guid>https://sxi.is-a.dev/post/2024-07-02-kendi-subdomaininizi-edinin-karsinizda-is-adev/</guid><description>Github sayfalarınız için kendi custom subdomaininizi edinin.</description></item><item><title>GSI nedir nasıl kurulur?</title><link>https://sxi.is-a.dev/post/gsi-kurulumu/</link><pubDate>Sun, 02 Jun 2024 00:00:00 +0000</pubDate><guid>https://sxi.is-a.dev/post/gsi-kurulumu/</guid><description>Merhaba
+{{ partial &amp;ldquo;search-google.html&amp;rdquo; . }}</description><content:encoded><![CDATA[<p><img loading="lazy" src="/images/hello.gif" alt=""  />
+</p>
+<p>Merhaba ben Sxinar burada önemli duyuru ve blog yazılarımı ve bütün link adreslerimi bulabilirsiniz.</p>
+<hr>
+<p>Blog’um, RSS destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz RSS okuyucunuz üzerinden blogumu takibe alabilirsiniz.</p>
+<p>{{ partial &ldquo;search-google.html&rdquo; . }}</p>
+]]></content:encoded></item><item><title>Yorumlarınızı 3. Şahıslarla paylaşmayın: "Karşınızda Cusdis"</title><link>https://sxi.is-a.dev/post/2024-07-10-yorumlarinizi-3-sahislarla-paylasmayin-cusdis/</link><pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate><guid>https://sxi.is-a.dev/post/2024-07-10-yorumlarinizi-3-sahislarla-paylasmayin-cusdis/</guid><description>Yorumlarınızı 3. Şahıslarla paylaşmak zorunda değilsiniz açık kaynaklı yorum sistemi olan Cusdis ile tanışın</description><content:encoded><![CDATA[<p>Günümüzde neredeyse bütün bilinçli tüketicilerin kendine ait web siteleri var.</p>
+<p>Eğer sizde Disqus gibi şirketleri kullanarak yorumlarınızı 3. Taraf şahıslarla paylaşmak istemiyorsanız Cusdis ile tanışın.</p>
+<h1 id="cusdis-nedir-">Cusdis nedir ?</h1>
+<p>Disqus&rsquo;a açık kaynaklı, hafif (~5kb sıkıştırılmış), gizlilik dostu alternatif aynı zamanda yorumlarınızı kendi database tabanınızda saklama imkanı veren bir yorum sistemidir.</p>
+<h1 id="özellikler">Özellikler:</h1>
+<ul>
+<li>
+<p>Yorum aldığınızda e-mail aracılığıyla bildirim alabilme</p>
+</li>
+<li>
+<p>Webhook ekleyerek telegram botu ile mesaj gelince tetikleyebirsiniz.</p>
+</li>
+<li>
+<p>Ücretsiz hesap ile ayda 100 adet yoruma kadar destekli.</p>
+</li>
+<li>
+<p>Self host yapılabilir yani kendi yorum sisteminizi kendi veritabanımızda saklayabilirsiniz.</p>
+</li>
+<li>
+<p>Evrensel yerleştirme kodu</p>
+</li>
+<li>
+<p>Hızlı kurulum</p>
+</li>
+<li>
+<p>Birden çok dil desteği</p>
+</li>
+<li>
+<p>Yorumlara karşılık verme seçeneği (alt alta yorum)</p>
+</li>
+<li>
+<p>Cusdis&rsquo;i her web sitesine yerleştirebilirsiniz.</p>
+</li>
+<li>
+<p>Hafif sdk</p>
+<ul>
+<li>Sitenize eklediğiniz SDK sadece 5kb&rsquo;dir (gzip&rsquo;lenmiştir). Disqus&rsquo;a kıyasla (24kb&rsquo;dir) oldukça hafiftir.</li>
+</ul>
+</li>
+<li>
+<p>Eposta bildirimi</p>
+</li>
+<li>
+<p>Disqus&rsquo;tan tek tıklamayla veri aktarımı</p>
+</li>
+<li>
+<p>Moderasyon panosu</p>
+<ul>
+<li>Yorum yapmak için kullanıcı girişi gerektirmediğimizden, moderatör onaylayana kadar tüm yorumlar varsayılan olarak GÖRÜNTÜLENMEZ. Bunun için bir moderasyon panosu sağlıyoruz.</li>
+</ul>
+</li>
+</ul>
+<h1 id="disqusa-kıyasla">Disqus’a kıyasla</h1>
+<p><img loading="lazy" src="/images/images%20%281%29.png" alt=""  />
+</p>
+<p>Şimdi buraya kadar okudusanız neden Disqus gibi sürekli güncellenen bir yorum sistemi varken daha şirket bile olmayan cusdis kullanayım diyebilirsiniz.</p>
+<p>Cusdis, Disqus’a TAMAMEN bir alternatif olarak tasarlanmamıştır; küçük siteler (örneğin statik blogunuz) için minimal bir gömülü yorum aracı uygulamayı amaçlamaktadır.</p>
+<h2 id="cusdisin-artıları-ve-eksileri-şunlardır">Cusdis’in artıları ve eksileri şunlardır:</h2>
+<p><img loading="lazy" src="/images/cusdis.jpg" alt=""  />
+</p>
+<h2 id="artıları"><strong>Artıları</strong></h2>
+<ul>
+<li>
+<p>Cusdis açık kaynaklı ve kendi kendini barındırabilen bir uygulamadır, verileriniz size aittir.</p>
+</li>
+<li>
+<p>SDK hafiftir (~5kb sıkıştırılmış)</p>
+</li>
+<li>
+<p>Cusdis yorumcunun oturum açmasını gerektirmez. Hiçbir şekilde çerez kullanmıyoruz.</p>
+</li>
+</ul>
+<h3 id="eksileri">Eksileri</h3>
+<ul>
+<li>
+<p>Cusdis erken geliştirme aşamasındadır</p>
+</li>
+<li>
+<p>Spam filtremiz olmadığı için varsayılan olarak onaylayana kadar görüntülenmeyen yorumları manuel olarak denetlemeniz gerekir.</p>
+</li>
+<li>
+<p>Disqus bir şirket, biz değiliz</p>
+</li>
+</ul>
+<h1 id="uygulamadan-görüntüler">Uygulamadan görüntüler</h1>
+<p><img loading="lazy" src="/images/landing.png" alt=""  />
+<img loading="lazy" src="/images/Screenshot_2024-07-10-10-35-33-295_com.android.chrome.png" alt=""  />
+<img loading="lazy" src="/images/Screenshot_2024-07-10-10-35-56-570_com.android.chrome.png" alt=""  />
+<img loading="lazy" src="/images/Screenshot_2024-07-10-10-36-08-057_com.android.chrome.png" alt=""  />
+<img loading="lazy" src="/images/Screenshot_2024-07-10-10-36-35-621_com.android.chrome.png" alt=""  />
+</p>
+<h1 id="web-sitenize-entegre-etme">Web sitenize entegre etme</h1>
+<h2 id="hugo">HUGO</h2>
+<p><a href="http://Cusdis.com">Cusdis.com</a><a href="http://cusdis.com/">&lsquo;da</a> bir hesap oluşturun<a href="http://cusdis.com/">.</a></p>
+<!-- raw HTML omitted -->
+<pre tabindex="0"><code>      &lt;!-- Comments by Cusdis --&gt;
+      &lt;h4&gt;Comments:&lt;/h4&gt;
+      &lt;div id=&#34;cusdis_thread&#34; data-host=&#34;https://cusdis.com&#34;
+        data-app-id=&#34;See your dashbord on Cusdis&#34;
+        data-page-id=&#34;{{ .File.UniqueID }}&#34; data-page-url=&#34;{{ .Permalink }}&#34;
+        data-page-title=&#34;{{ .Title }}&#34;&gt;&lt;/div&gt;
+      &lt;script async defer src=&#34;https://cusdis.com/js/cusdis.es.js&#34;&gt;&lt;/script&gt;
+</code></pre><!-- raw HTML omitted -->
+<h2 id="ghost">Ghost</h2>
+<ul>
+<li><a href="http://Cusdis.com">Cusdis.com</a> üzerinde hesap açın.</li>
+</ul>
+<p><img loading="lazy" src="/images/image-52.png" alt=""  />
+</p>
+<ul>
+<li>
+<p>Öncelikle yeni bir site kaydet butonuna tıklayınız.<br>
+<img loading="lazy" src="/images/image-53.png" alt=""  />
+</p>
+</li>
+<li>
+<p>Daha sonra embeeded kodu yani yerleştirme kodunu kaydedin.</p>
+</li>
+</ul>
+<p><img loading="lazy" src="/images/image-54.png" alt=""  />
+</p>
+<p><code>data-app-id</code> kodunuzu kopyalayın.</p>
+<p><img loading="lazy" src="/images/image-55.png" alt=""  />
+</p>
+<ul>
+<li>Daha sonra ghost üzerinde setting -&gt; tasarım kısmında &ldquo;Yorum sisteminizi seçiyorsunuz&rdquo; ve en son id yazarak tamamlıyoruz.</li>
+</ul>
+<p>Bu kadar adımlarımız ile sitemize entegre ettik.</p>
+<p>İleri zamanlarda jeekly next.js gibi static web generator cusdis entegre etme adımlarını ekleyeceğim.</p>
+]]></content:encoded></item><item><title>Kendi subdomaininizi edinin: "Karşınızda is-a.dev"</title><link>https://sxi.is-a.dev/post/2024-07-02-kendi-subdomaininizi-edinin-karsinizda-is-adev/</link><pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate><guid>https://sxi.is-a.dev/post/2024-07-02-kendi-subdomaininizi-edinin-karsinizda-is-adev/</guid><description>Github sayfalarınız için kendi custom subdomaininizi edinin.</description><content:encoded><![CDATA[<p>Arkadaşlar herkese merhabalar nasılsınız?<br>
+Malum artık teknoloji çağındayız ve bence bu çağda tüm bireylerin bir blog sayfasi olmalı.</p>
+<p>Yazmak bir kültürdür.</p>
+<p>Bu konu için Yusuf İpek bir yayın yapmıştı kendisinin her adımını takip ederim 😀
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/ZVUIxt5lYaQ?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+</p>
+<p>İmkanlar da geliştiği için masraflı bir yöntem değil github+vercel veya direkt github pages kullanılarak blog sayfamızı elde edebiliyoruz.Yalan yok .github.io alan adına sahip bir site gerçekten gereksiz uzun gözüküyor.Benim gözümü kanatıyor en azından.Tam bu esnada imdadımıza “is-a.dev” yetişiyor.Yalan yok bu alan adının da .github.io alan adından üstün bir yanı yok ama daha kısa en azından.Ayrıca github dışında projeleriniz için de kullanabilirsiniz.Peki nasıl “is-a.dev” alan adına sahip olabilirim?</p>
+<!-- raw HTML omitted -->
+<ol>
+<li>
+<p>Öncelikle <a href="https://is-a.dev/">İs-a.dev adresine gidiyoruz</a> (Meraklısına)</p>
+</li>
+<li>
+<p>Daha sonra <a href="https://github.com/is-a-dev/register">Github reposuna gidiyoruz.</a></p>
+</li>
+<li>
+<p>Daha sonra ise <a href="https://github.com/is-a-dev/register/fork">Bu bağlantıya tıklayarak projeyi forkluyoruz.</a></p>
+</li>
+<li>
+<p>Daha sonra forkladığımız proje sayfasına giriyoruz.</p>
+</li>
+<li>
+<p>Ben kendi adıma konuşuyorum /domains adresine gidiyoruz ve “kendi-adin.json” adlı bir dosya oluşturuyoruz.</p>
+</li>
+<li>
+<p><code>{ &quot;owner&quot;: { &quot;username&quot;: &quot;sxinar&quot;, &quot;email&quot;: &quot;ornek@sxinar.com.tr&quot; }, &quot;record&quot;: { &quot;URL&quot;: &quot;https://sxonar.com.tr&quot; } }</code><br>
+Dosyasını yapıştırıyoruz fakat siz düzenleme yapacaksınız daha sonra pull request atıyoruz ve alan adı kaydıni bekliyoruz.</p>
+</li>
+</ol>
+<!-- raw HTML omitted -->
+]]></content:encoded></item><item><title>GSI nedir nasıl kurulur?</title><link>https://sxi.is-a.dev/post/gsi-kurulumu/</link><pubDate>Sun, 02 Jun 2024 00:00:00 +0000</pubDate><guid>https://sxi.is-a.dev/post/gsi-kurulumu/</guid><description>Merhaba
 Bugün yazımda Custom rom derlenmeyen-destek almayan cihazlar için alternatif rom olan &amp;ldquo;GSI&amp;rdquo; nedir onu anlatacağım.
 GSI nedir? GSI&amp;rsquo;nın açılımı Generic System İmage olup Türkçe olarak Genel Sistem İmajı (Jenerik olarak da söylenebilir). Ayrıca Project Treble olarak geçer. AOSP ve diğer Custom ROM dağıtımlarının GSI ları bulunmakta. GSI bir rom değildir! Ve bunların bir listesi mevcut. Aşağıda vereceğim.
 GSI kurmanın en büyük 2 sebebi;
-Daha yüksek Android sürümü Ve insanların kendi arayüzlerini beğenmemesi GSI kurmanın eksileri;</description></item><item><title>Gnome Aktiviteler kısayolunu dağıtımımızdan kaldırma</title><link>https://sxi.is-a.dev/post/gnome-activities-remove/</link><pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate><guid>https://sxi.is-a.dev/post/gnome-activities-remove/</guid><description>Merhaba. Bugün sizlere Linux kullanımımda Gnome sevdam dolayısıyla kullandığım süre boyunca işlevsiz bulduğum ve gözüme çok batan bir kısayolu nasıl kaldıracağımızı göstereceğim.
+Daha yüksek Android sürümü Ve insanların kendi arayüzlerini beğenmemesi GSI kurmanın eksileri;</description><content:encoded><![CDATA[<p>Merhaba</p>
+<p>Bugün yazımda Custom rom derlenmeyen-destek almayan cihazlar için alternatif rom olan &ldquo;<strong>GSI</strong>&rdquo; nedir onu anlatacağım.</p>
+<p>GSI nedir?
+GSI&rsquo;nın açılımı Generic System İmage olup Türkçe olarak Genel Sistem İmajı (Jenerik olarak da söylenebilir). Ayrıca Project Treble olarak geçer. AOSP ve diğer Custom ROM dağıtımlarının GSI ları bulunmakta. GSI bir rom değildir! Ve bunların bir listesi mevcut. Aşağıda vereceğim.</p>
+<p>GSI kurmanın en büyük 2 sebebi;</p>
+<ul>
+<li>Daha yüksek Android sürümü</li>
+<li>Ve insanların kendi arayüzlerini beğenmemesi</li>
+</ul>
+<p>GSI kurmanın eksileri;</p>
+<ul>
+<li>Cihazın garantisi artık (var ise) sayılmaz. Zaten Bootloader kilidini açtığınız an sayılmaz.</li>
+<li>Artık cihaz kendi yazılımını kullanmaz.</li>
+<li>Düzgün çalışacağının garantisi yok.</li>
+</ul>
+<p><strong>Asla unutmayın GSI deneyseldir.</strong>
+<strong>Her GSI cihazınız ile tam uyumlu çalışmaz. Bunun asla garantisi yoktur. Sadece seçerken resmi derlemeleri seçmeye özen göstermelisiniz. Resmi olmayan derlemeleri seçerken ise tanınmış geliştiricilerin GSI larını tercih edin. Mesela AndyYan veya eremitein gibi kişilerin GSI romları</strong>.</p>
+<p>Peki hangi cihazlara kurabilirim?
+GSI Android 8 ile tanıtılmıştır. Kutudan Android 8 ve üstü ile çıkan tüm cihazlarda kullanılabilir. Ama ama eski bir sürüm ile gelen cihazlarda yükseltme yapılır ise bu mümkün olabilir (düşük ihtimal).</p>
+<p>Ama benim cihazım Android 8 ile gelmiyor&hellip;
+Bazı kişilerin Android sürümleri 8 ile gelmeyebilir. Belki 6 veya 7 ile gelmiş olabilir. Ama sonradan 8 sürümüne yükseltmiş olabilir. Cihazın destekliyip desteklemediğini anlamak için ADB kabuğunda şu komutu çalıştırın;</p>
+<p><code>adb shell getprop ro.treble.enabled</code>
+Eğer çıktı sonucu true ise cihaz Project Treble destekliyor demektir. Eğer false ise desteklemiyor demektir.
+Komut çalışmadımı? adb shell ekini kaldırın ve öyle deneyin.
+Veya Treble Info uygulamasını kurun. Aşağıda verdim.</p>
+<p>Cihazım Project Treble destekliyor. Şimdi ne yapmalıyım?
+Şimdi cihazının hangi GSI lar ile uyumlu olduğunu anlamakta. Kolayca anlamak için cihazınıza şu uygulamayı kurun; Treble Info - Apps on Google Play
+Uygulamayı açtığınız gibi karşınıza uyumluluk bilgisi gelecektir. Ama bu terimlerin anlamını açıklayayım;
+Ama iki örnek verelim; system-arm64-ab.img.xz ve system-arm32-binder64-A-Only.img.xz
+2. Kelime sonrasında (tam sona kadar değil) cihazınızın mimarisi hakkında bilgi verir. Bunlar sadece şunlar olabilir;</p>
+<ul>
+<li>arm64 - 64-bit mimari.</li>
+<li>arm32 - 32-bit mimari</li>
+</ul>
+<p>Bunlar ne yaaa?</p>
+<ul>
+<li>arm32-binder64 - 64-bit bağlayıcı. 64-bit atayıcıları olup 32-bit işlemci kullananları içindir.</li>
+<li>ab - A/B bölümlü cihazlar için. Cihazda bir tane bile A/B bölüm var ise cihaz A/B sayılır.</li>
+<li>A-Only -A-Only bölümlü cihazlar için.
+Gerisinin bir anlamı yok.
+Ama gereksinim belirlemesi bunlar ile bitmiyor. Treble Info uygulamasında ayrıntılar kısmına gidin. System-as-root (SaR) durumunu kontrol edin. A/B cihazlarda enabled (açık), A-Only cihazlarda ise disabled (kapalı) olacaktır. Kontrol etmekte fayda var. Ayrıca dinamik bölümlü olup olmadığını kontrol edin. Android 10 ve üstü gelen cihazlar da enabled diğerlerinde ise disabled olacaktır. Bu yükleme yaparken önemli olacaktır.</li>
+</ul>
+<p>Şimdi GSI seçimimizi yapalım;
+Treble Info uygulamasındaki &ldquo;İmajları Araştır&rdquo; butonuna basarak veya şu bağlantıdan; Generic System Image (GSI) list
+GSI listemize girelim. Buradan Treble Info uygulamasından aldığımız bilgilere göre GSI seçmeliyiz. Seçim size kalmış. Sayfayı ilk açtığınız zaman alt kısımda bulunan &ldquo;Legacy GSIs&rdquo; butonuna basarak diğer GSI lara bakabilirsiniz.
+<strong>NOT 1</strong>: Bazı cihazlar VNDKLİTE kullanır. Bu normal VNDK&rsquo;nın daha hafif bir varyantıdır. Uyumluluk vb den ödün verir. VNDKLİTE GSI imajları normal VNDK cihazlar ile çalışabilir. Bu Treble uygulamasında gösterilir. Dikkat ediniz.</p>
+<p><strong>NOT 2</strong>: Cihazların VNDK sürümü çok etkendir. Genelde V28 ve üstüne destek olur (9.0). Veya üstü. Ama ne ilginçtir ki bazen V29 (10) desteği olmuyor. Kaldırılıyor. V27 (8.1) sürümünde GSI çok zorludur. Çünkü eski ve destek verilmez. Çok yeni VNDK sürümleri ile de ilk başlarda sorunlar olabilir.</p>
+<p>Ya bu yazılar ne anlama geliyor???
+GSI seçtiniz ve indireceksiniz. Ama son kısımda bulunan üçlü harf diziliminden anlamadız (bvN gibi)
+Bu harflerin anlamı var.</p>
+<ul>
+<li>
+<ol>
+<li>Harf;
+Hangi cihaz bölümleri uygun olduğu hakkında bilgi verilir.</li>
+</ol>
+<ul>
+<li>a - Cihaz bölüm tibi A-Only olan cihazlar için.</li>
+<li>b - Cihaz bölüm tipi A/B olan cihazlar için.</li>
+</ul>
+</li>
+<li>
+<ol start="3">
+<li>Harf;
+GApss kurulu olup olmadığı hakkında bilgi verir. Zaten 3 harf kombinasyonu dışında olan ad kısmında belirtilebilir.</li>
+</ol>
+<ul>
+<li>v - Vanilla demek. Yani GApss yok. Ama bu kurulamayacağı anlamına gelmez.</li>
+<li>g - GApss kurulu demek.</li>
+<li>o - GApss kurulu demek. Ama Android Go uygulamaları.</li>
+</ul>
+</li>
+<li>
+<ol start="3">
+<li>Harf;
+GSI imajında ROOT olup olmadığı hakkında bilgi. Eğer ROOT lu bir imaj kurarasanız, cihaza ROOT erişimi vermiş olursunuz.</li>
+</ol>
+<ul>
+<li>N - No Su. Yani ROOT yok.</li>
+<li>S - Su. Yani ROOT var. PHH Super user ile. İnternetten uygulamasını kurarsanız yönetebilirsiniz. Ama PHH Super user pek güzel değil. Önermem.</li>
+<li>Z - eremitein in dinamik süper kullanıcılısı. Bu root var demek. Ama daha önce test etmedim.</li>
+</ul>
+</li>
+</ul>
+<p>Bunlar bu kadardı. İmajı indirin <strong>.XZ</strong> arşivinde olacaktır. Ayıklayın. Ve çıkan imaj adını system.img olarak yeniden adlandırın. Ve boyutu not alın. Çünkü gerekli olacak.
+<strong>NOT</strong>: Eğer GSI boyutu sistem bölüm boyutundan fazla ise Android 10 altı ile gelen cihazlarda yüklenemez! Ama 10 üstünde bu mümkün.</p>
+<p>Sistem bölüm boyutunu nasıl kontrol ederim?</p>
+<ul>
+<li>Cihazın Stock ROM unu indirin. ROM daki system bölüm boyutunu kontrol edin.</li>
+<li>TWRP ile kontrol edin.</li>
+<li>Sanırım bunun için bir ADB komutu vardı. Ama şuan hatırlamıyorum.</li>
+</ul>
+<p>GSI kurulumu için gereksinimler;</p>
+<ul>
+<li>Bilgisayar</li>
+<li>Bilgisayarı olmayanlar Bugjaeger android uygulaması.</li>
+<li>Bugjaeger kullanacaklar için OTG kablosu.</li>
+<li>Bilgisayar kullanacaklar için Platform Tools ve USB sürücüleri.</li>
+<li>Cihazın bootloader kilidi açık olmalı.</li>
+</ul>
+<p>Cihazda yapılması gereken ufak bir ayar;</p>
+<ul>
+<li>USB hata ayıklamayı açın. Ayrıca eğer komutları çalıştırırken Bugjaeger kullanacak ise niz komutları vereceğiniz cihazında USB hata ayıklaması aktifleştirilmelidir.</li>
+</ul>
+<p>Artık kuruluma geçelim;
+Hem Android 10 ve üstü ile gelen cihazlar için hemde Android 10 altı ile gelen cihazlar için talimat vereceğim. Ayrıca TWRP ile yükleme. Ama fastboot (10 üstü fastbootd) kullanmanızı öneririm.
+NOT: Bu işlemleri yapmadan önce bootloader kilidini açmayı unutmayın
+NOT 2: Eğer cihazda AVB / Dm-verity aktif ise önce devre dışı bırakın.</p>
+<p>Android 10 altı ile gelen cihazlar;
+<strong>NOT</strong>: Bugjaeger kullanacak olanlar fastboot komutlarını ⚡ kısmından yapmalı :D</p>
+<p>İlk olarak <strong>Cihazı fastboot moda alın.</strong></p>
+<ul>
+<li><code>adb reboot bootloader</code></li>
+</ul>
+<p>Sistemi silin</p>
+<ul>
+<li><code>fastboot erase system</code></li>
+</ul>
+<p>GSI flaşlayın</p>
+<ul>
+<li><code>fastboot flash system &lt;dosya_yolu&gt;</code></li>
+</ul>
+<p>Cihazı sıfırlayın. Data ve metadata</p>
+<ul>
+<li><code>fastboot -w</code>
+Veya</li>
+<li><code>fastboot erase userdata</code></li>
+<li><code>fastboot erase metadata</code></li>
+</ul>
+<p>Cihazı yeniden başlatın.</p>
+<ul>
+<li><code>fastboot reboot</code></li>
+</ul>
+<p><strong>Android 10 üstü ile gelen dinamik bölümlü cihazlar;</strong>
+NOT: Bugjaeger kullanacak olanlar fastboot komutlarını ⚡ kısmından yapmalı :D</p>
+<p>Cihazı fastboot moda alın</p>
+<ul>
+<li><code>adb reboot bootloader</code></li>
+</ul>
+<p>Cihazı fastbootd moda alın</p>
+<ul>
+<li><code>fastboot reboot fastboot</code></li>
+</ul>
+<p>Eğer cihazınıza kuracağınız GSI boyutu sistem bölüm boyutundan fazla ise şu komutları çalıştırın;</p>
+<p>Product bölümünü temizleyin</p>
+<ul>
+<li><code>fastboot erase product</code></li>
+</ul>
+<p><strong>Başarılı olur ise yüklemeye geçin.</strong></p>
+<p>Sistemi silin</p>
+<ul>
+<li><code>fastboot erase system</code></li>
+</ul>
+<p>GSI flaşlayın</p>
+<ul>
+<li><code>fastboot flash system &lt;dosya_yolu&gt;</code></li>
+</ul>
+<p>Cihazı sıfırlayın. Data ve metadata</p>
+<ul>
+<li>
+<p><code>fastboot -w</code>
+Veya</p>
+</li>
+<li>
+<p><code>fastboot erase userdata</code></p>
+</li>
+<li>
+<p><code>fastboot erase metadata</code></p>
+<p>Cihazı yeniden başlatın.</p>
+</li>
+<li>
+<p><code>fastboot reboot</code></p>
+</li>
+</ul>
+<p>TWRP ile nasıl yükleyebilirim [<strong>önermem</strong>];
+İndirdiğiniz xz dosyasını ayıklayın. Adını system.img olarak değiştirin (zorunlu değil). Cihazı recovery moda alın. Wipe&gt; Advanced Wipe kısmına gelin. Sistem i seçin ve temizleyin. İşlem bitince, yükle kısmına gelin. İmaj yüklemeye tıklayın. GSI imajinı seçin. Size hangi bölüme yazma olacağını seçmenizi ister, Sistem i seçin. İşlem bitince yeniden Advanced Wipe kısmına gelin. Dalvik/ART Önbelleği, Veri, Önbellek ve isteğe bağlı dahili depolamayı seçin ve temizleyin. Eğer isterseniz (vanilla GSI lar için) GApps kurulumunu yapın. Cihazı yeniden başlatın.</p>
+<p>Eğer sorunlar olur ise bazıları için çözümler tabii ki de var. Ama bazılarında maalesef.</p>
+<p>Sorumluluk kabul etmem. Her şeyden yapan kişi sorumludur.</p>
+<p>Mutlu günler.</p>
+]]></content:encoded></item><item><title>Gnome Aktiviteler kısayolunu dağıtımımızdan kaldırma</title><link>https://sxi.is-a.dev/post/gnome-activities-remove/</link><pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate><guid>https://sxi.is-a.dev/post/gnome-activities-remove/</guid><description>Merhaba. Bugün sizlere Linux kullanımımda Gnome sevdam dolayısıyla kullandığım süre boyunca işlevsiz bulduğum ve gözüme çok batan bir kısayolu nasıl kaldıracağımızı göstereceğim.
 Kısayolumuz böyle duruyor: Kısayolumuzu kaldırmak için shell extensions altyapısını kullanacağız.
 Eğer dağıtımınızda yüklü değilse blogumda yer alıyor Gitmek için tıklayınız
 Eğer altyapımız dağıtımımıza entegre olduysa Gnome Eklentimizin bulunduğu siteye gitmek için tıklayabiliriz.
-Eklentiyi yüklemek istediğimize dair ekranın tam ortasında bir pop-up çıkacaktır onay verdikten sonra Ekranımızı sade ve şık bir görünüme kavuşturuyoruz.</description></item><item><title>Gnome Kabuk Eklentisini İşletim sistemimize ekleyelim!</title><link>https://sxi.is-a.dev/post/gnome-shell-extensions/</link><pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate><guid>https://sxi.is-a.dev/post/gnome-shell-extensions/</guid><description>Merhabalar. Bugün Fedora kullanırken çok işime yarayan,linux kullanımımı çok işlevsel bir hale getiren &amp;ldquo;Gnome Eklentileri&amp;rdquo; uygulamasını nasıl Linux dağıtımımıza ekleyeceğimizi göstereceğim.
+Eklentiyi yüklemek istediğimize dair ekranın tam ortasında bir pop-up çıkacaktır onay verdikten sonra Ekranımızı sade ve şık bir görünüme kavuşturuyoruz.</description><content:encoded><![CDATA[<p>Merhaba.
+Bugün sizlere Linux kullanımımda Gnome sevdam dolayısıyla kullandığım süre boyunca işlevsiz bulduğum ve gözüme çok batan bir kısayolu nasıl kaldıracağımızı göstereceğim.</p>
+<p>Kısayolumuz böyle duruyor:
+<img loading="lazy" src="https://techolay.net/sosyal/ek/ekran-goeruentuesue-2024-05-18-15-11-23-png.47631/" alt="Kısayolumuz bu şekilde duruyor"  />
+</p>
+<p>Kısayolumuzu kaldırmak için shell extensions altyapısını kullanacağız.</p>
+<p>Eğer dağıtımınızda yüklü değilse blogumda yer alıyor <a href="https://sxinar.github.io/post/gnome-shell-extensions/">Gitmek için tıklayınız</a></p>
+<p>Eğer altyapımız dağıtımımıza entegre olduysa <a href="https://extensions.gnome.org/extension/744/hide-activities-button/">Gnome Eklentimizin bulunduğu siteye gitmek için tıklayabiliriz.</a></p>
+<p>Eklentiyi yüklemek istediğimize dair ekranın tam ortasında bir pop-up çıkacaktır onay verdikten sonra <img loading="lazy" src="https://extensions.gnome.org/extension-data/screenshots/screenshot_744_p0oq1P0.png" alt="Ekranımız şık ve sade bir görünüme kavuşacaktır."  />
+</p>
+<p>Ekranımızı sade ve şık bir görünüme kavuşturuyoruz.</p>
+<p>Makalemizin sonuna geldi Mutlu günler.</p>
+]]></content:encoded></item><item><title>Gnome Kabuk Eklentisini İşletim sistemimize ekleyelim!</title><link>https://sxi.is-a.dev/post/gnome-shell-extensions/</link><pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate><guid>https://sxi.is-a.dev/post/gnome-shell-extensions/</guid><description>Merhabalar. Bugün Fedora kullanırken çok işime yarayan,linux kullanımımı çok işlevsel bir hale getiren &amp;ldquo;Gnome Eklentileri&amp;rdquo; uygulamasını nasıl Linux dağıtımımıza ekleyeceğimizi göstereceğim.
 Öncelikle kullanmakta olduğumuz tarayıcımıza &amp;ldquo;Gnome Kabuk Bağlantısı&amp;rdquo; uzantısını eklememiz gerekiyor.
 Chrome tabanlı tarayıcılar için uzantıyı Chrome Web Mağazası&amp;rsquo;nı kullanarak yükleyin .
 Firefox için uzantıyı Mozilla Eklentiler sitesinden manuel olarak yüklemelisiniz.Lütfen Firefox&amp;rsquo;un bağlayıcı sürüm 8&amp;rsquo;den beri desteklendiğini unutmayın.
 Tarayıcımıza uzantımızı eklediğimize göre artık dağıtımımıza bağdaştırıcı modeli terminal aracılığıyla yükleyeceğiz.
-Arch Linux için</description></item><item><title>TWRP derleme rehberi</title><link>https://sxi.is-a.dev/post/twrp-derleme-rehberi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sxi.is-a.dev/post/twrp-derleme-rehberi/</guid><description>Android cihazlar için detaylı TWRP derleme rehberimi okumaktasınız iyi okumalar</description></item></channel></rss>
+Arch Linux için</description><content:encoded><![CDATA[<p>Merhabalar.
+Bugün Fedora kullanırken çok işime yarayan,linux kullanımımı çok işlevsel bir hale getiren <strong>&ldquo;Gnome Eklentileri&rdquo;</strong> uygulamasını nasıl Linux dağıtımımıza ekleyeceğimizi göstereceğim.</p>
+<ul>
+<li>
+<p>Öncelikle kullanmakta olduğumuz tarayıcımıza &ldquo;Gnome Kabuk Bağlantısı&rdquo; uzantısını eklememiz gerekiyor.</p>
+<ul>
+<li>
+<p>Chrome tabanlı tarayıcılar için uzantıyı Chrome Web Mağazası&rsquo;nı kullanarak yükleyin .</p>
+</li>
+<li>
+<p>Firefox için uzantıyı Mozilla Eklentiler sitesinden manuel olarak yüklemelisiniz.Lütfen Firefox&rsquo;un bağlayıcı sürüm 8&rsquo;den beri desteklendiğini unutmayın.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Tarayıcımıza uzantımızı eklediğimize göre artık dağıtımımıza bağdaştırıcı modeli terminal aracılığıyla yükleyeceğiz.</p>
+<ul>
+<li>
+<p>Arch Linux için</p>
+<p><code>pacman -Sy gnome-tarayıcı-bağlayıcısı</code> komutunu giriyoruz terminale.</p>
+</li>
+<li>
+<p>Debian tabanlı dağıtımlar için</p>
+<p><code>sudo apt-get install chrome-gnome-shell</code> komutunu giriyoruz terminal satırına.</p>
+</li>
+<li>
+<p>Fedora tabanlı dağıtımlar için</p>
+<p><code>dnf install gnome-browser-connector</code> komutunu terminal satırına yapıştırıyoruz.</p>
+</li>
+<li>
+<p>Gentoo tabanlı dağıtımlar için</p>
+<p><code>emerge -av gnome-extra/gnome-browser-connector</code> komutunu terminal satırına yapıştırıyoruz.</p>
+</li>
+<li>
+<p>Ubuntu tabanlı dağıtımlar için</p>
+<p><code>sudo apt-get install gnome-browser-connector</code> komutunu terminal satırına yapıştırıyoruz.</p>
+<p>Daha sonra ise <a href="https://extensions.gnome.org/">Gnome eklenti Web sitesine buraya tıklayarak gidelim</a> daha sonra onay için bir pop-up çıkacak iznimizi vererdiğimize göre yazımızı sonlandırıyorum.</p>
+<p>Mutlu günler diliyorum.</p>
+</li>
+</ul>
+</li>
+</ul>
+]]></content:encoded></item><item><title>TWRP derleme rehberi</title><link>https://sxi.is-a.dev/post/twrp-derleme-rehberi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sxi.is-a.dev/post/twrp-derleme-rehberi/</guid><description>Android cihazlar için detaylı TWRP derleme rehberimi okumaktasınız iyi okumalar</description><content:encoded><![CDATA[<ul>
+<li>
+<p>Herkese merhaba, sevgili okurlarım, bugün sizlere güncel şekilde nasıl TWRP derleneceğini anlatacağım. Umarım rehberi beğenirsiniz.</p>
+<p><strong>Yapacağınız işlemlerin sorumluluğu size aittir.</strong></p>
+<p><strong>Gereksinimler</strong>:</p>
+</li>
+<li>
+<p>100 GB depolama.</p>
+</li>
+<li>
+<p>Linux (ben Manjaro kullandım)</p>
+</li>
+<li>
+<p>Ve tabii ki de benim rehberim :)</p>
+</li>
+</ul>
+<!-- raw HTML omitted -->
+<p>TWRP cihaz ağacı oluşturmak aslında oldukça basittir. Piyasadaki çoğu cihazın cihaz ağacı genelde derlenmiş olarak verilir. Ancak bazı cihaz ağaçları çalışmayabilir veya sizin cihaz ağacınız bulunmayabilir. İşte cihaz ağacı oluşturma adımları:</p>
+<p><code>mkdir &lt;cihazagaci&gt;</code><br>
+<code>cd &lt;cihazagaci&gt;</code><br>
+<code>pip install twrpdtgen</code></p>
+<p>Bu aşamada stock ROM içinden <strong>recovery.img</strong> almanız gerekmektedir. <strong>recovery.img</strong>&lsquo;yi bu dizine kopyalayın ve daha sonra:</p>
+<p><code>python3 -m twrpdtgen recovery.img</code></p>
+<p>Komutunu girin. Cihaz ağacınız <code>output/&lt;marka&gt;/&lt;cihaz kod adı&gt;</code> klasörüne gelecektir.</p>
+<!-- raw HTML omitted -->
+<p>Bu adımda sağlam bir internet bağlantınızın olmasını öneririm. Uzun sürebilir.</p>
+<p>Önceki adımdan <code>cd</code> komudu ile ana dizine gelin ve daha sonra:</p>
+<p><code>mkdir twrp</code><br>
+<code>cd twrp</code><br>
+<code>repo init -u https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-9.0</code><br>
+<code>repo sync</code></p>
+<p>Komutlarını girin. Dosyaların indirilmesi dediğim gibi uzun sürebilir.</p>
+<!-- raw HTML omitted -->
+<p>Şimdi 1. adımda yaptığımız cihaz ağacını, TWRP konumuna gidip <code>device/&lt;cihaz markası&gt;/&lt;cihaz model numarası&gt;</code> konumuna kopyalayın.</p>
+<p><strong>Not: Dosyaları siz oluşturmalısınız, eğer hazır bir cihaz ağacı kullanacaksanız</strong> <code>git clone cihazagaciurl device/&lt;marka&gt;/&lt;model kodu&gt;</code> girerek indirebilirsiniz.<br>
+Bu işlemleri de tamamladığınıza göre, artık derlemeye geçebiliriz.</p>
+<p>Öncelikle <code>export ALLOW_MISSING_DEPENDENCIES=true</code> diyoruz.<br>
+Daha sonra <code>. build/envsetup.sh</code> diyoruz. Çıkan şey hata gibi gelse de değildir.<br>
+Daha sonra <code>lunch</code> komutunu giriyoruz. Ekrana birkaç tane şey gelecektir. Buradan cihaz modelinizin yanında <strong>-eng</strong> yazanı kopyalıyoruz. <strong>örnek: omni_a505f-eng</strong> gibi.<br>
+Daha sonra lunch komutunu girip yanında yapıştırın. Örnek: lunch omni_a505f-eng<br>
+Daha sonra <code>mka recoveryimage</code> komudunu giriyoruz ve derlenmesini bekliyoruz. Bittiğinde <strong>recovery. İmg</strong> sisteminizde olmalı.</p>
+<p>Artık TWRP derlendi. Cihazınız vbmeta istiyorsa, <strong>vbmeta.img</strong> ile bir ZIP&rsquo;e sıkıştırarak kurulum gerçekleştirebilirsiniz.</p>
+<p>Umarım rehber işinize yaramıştır. Tüm sorularınızı aşağıda sorabilirsiniz. İyi günler dilerim.</p>
+]]></content:encoded></item></channel></rss>
