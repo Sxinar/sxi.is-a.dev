@@ -23,6 +23,11 @@ menu:
       name: Blog
       url: /post/
       weight: 2
+    - parent: "blog"
+      identifier: "blog-archives"
+      name: "Arşiv"
+      url: "/blog/archives/"
+      weight: 1
     - identifier: İletişim
       name: İletişim
       url: /page/iletisim/
