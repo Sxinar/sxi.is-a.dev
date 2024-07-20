@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RSS Takip Uygulaması</title>
+    <title>RSS Takip</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -83,12 +84,17 @@
         .dark-mode .close {
             color: #ffffff;
         }
+        .center {
+            text-align: center;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>RSS Takip Uygulaması</h1>
-        <button id="toggle-dark-mode" class="btn btn-secondary mb-3">Karanlık Mod</button>
+        <div class="center">
+            <h1>RSS Takip <i class="fas fa-rss"></i></h1>
+            <button id="toggle-dark-mode" class="btn btn-secondary mb-3"><i class="fas fa-moon"></i></button>
+        </div>
         <div id="rss-feeds"></div>
     </div>
 
