@@ -84,8 +84,77 @@
         .dark-mode .close {
             color: #ffffff;
         }
+        .dark-mode #read-items-menu {
+            background-color: #333;
+            color: #ffffff;
+        }
+        .dark-mode #menu-toggle {
+            background-color: #555;
+        }
         .center {
             text-align: center;
+        }
+        #read-items-menu {
+            position: fixed;
+            right: 0;
+            top: 0;
+            width: 300px;
+            height: 100%;
+            background-color: #f8f9fa;
+            box-shadow: -2px 0 5px rgba(0,0,0,0.5);
+            transform: translateX(100%);
+            transition: transform 0.3s ease;
+            overflow-y: auto;
+            padding: 10px;
+        }
+        #read-items-menu.open {
+            transform: translateX(0);
+        }
+        #menu-toggle {
+            position: fixed;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            z-index: 1000;
+        }
+        #all-read-message {
+            display: none;
+            text-align: center;
+            font-size: 1.5em;
+            color: green;
+        }
+        #all-read-message i {
+            font-size: 2em;
+            margin-right: 10px;
+        }
+        .cookie-consent {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 10px;
+            text-align: center;
+            z-index: 2000;
+            display: none;
+        }
+        .cookie-consent button {
+            margin-left: 10px;
+            padding: 5px 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .read-item-icon {
+            margin-left: 10px;
+            cursor: pointer;
         }
     </style>
 </head>
@@ -96,6 +165,7 @@
             <button id="toggle-dark-mode" class="btn btn-secondary mb-3"><i class="fas fa-moon"></i></button>
         </div>
         <div id="rss-feeds"></div>
+        <div id="all-read-message"><i class="fas fa-check-circle"></i> Hepsini Okudunuz</div>
     </div>
 
     <!-- Modal Yapısı -->
@@ -105,6 +175,19 @@
             <h2 id="modal-title"></h2>
             <div id="modal-content"></div>
         </div>
+    </div>
+
+    <!-- Okunan Yazılar Menüsü -->
+    <div id="read-items-menu">
+        <h3>Okunan Yazılar</h3>
+        <ul id="read-items-list"></ul>
+    </div>
+    <button id="menu-toggle"><i class="fas fa-bars"></i></button>
+
+    <!-- Çerez Uyarısı -->
+    <div class="cookie-consent" id="cookie-consent">
+        Bu site çerezleri kullanmaktadır. Devam ederek bu kullanımı kabul etmiş olursunuz.
+        <button id="accept-cookies">Kabul Et</button>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
