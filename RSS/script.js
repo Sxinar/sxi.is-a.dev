@@ -19,6 +19,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
     toggleDarkModeBtn.onclick = function() {
         document.body.classList.toggle("dark-mode");
+        if (document.body.classList.contains("dark-mode")) {
+            toggleDarkModeBtn.innerHTML = '<i class="fas fa-sun"></i>';
+        } else {
+            toggleDarkModeBtn.innerHTML = '<i class="fas fa-moon"></i>';
+        }
     }
 
     rssFeeds.forEach(feed => {
