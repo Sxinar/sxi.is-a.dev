@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const rssFeeds = ["https://yusufipek.me/rss", "https://sxinar.github.io/index.xml"];
+    const rssFeeds = ["https://yusufipek.me/rss", "https://sxi.is-a.dev/index.xml"];
     const rssContainer = document.getElementById("rss-feeds");
     const modal = document.getElementById("myModal");
     const modalTitle = document.getElementById("modal-title");
