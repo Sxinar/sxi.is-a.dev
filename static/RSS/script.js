@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const modalTitle = document.getElementById("modal-title");
     const modalContent = document.getElementById("modal-content");
     const closeModal = document.getElementsByClassName("close")[0];
+    const toggleDarkModeBtn = document.getElementById("toggle-dark-mode");
 
     closeModal.onclick = function() {
         modal.style.display = "none";
@@ -14,6 +15,10 @@ document.addEventListener("DOMContentLoaded", function() {
         if (event.target == modal) {
             modal.style.display = "none";
         }
+    }
+
+    toggleDarkModeBtn.onclick = function() {
+        document.body.classList.toggle("dark-mode");
     }
 
     rssFeeds.forEach(feed => {
