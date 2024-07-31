@@ -91,8 +91,8 @@ params:
           url: "https://gitlab.com/Sxinar"
         - name: xda
           url: "https://xdaforums.com/m/basaransemih.12859096/"
-        - name: forum
-          url: "https://techolay.net/sosyal/uye/sxinar.2046"
+        - name: link
+          url: "https://sxi.is-a.dev/link"
         - name: email
           url: "mailto:me.unreal462@simplelogin.com"
         - name: rss
