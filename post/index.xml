@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on Sxinar</title><link>https://sxi.is-a.dev/post/</link><description>Recent content in Posts on Sxinar</description><generator>Hugo -- 0.130.0</generator><language>tr</language><lastBuildDate>Wed, 10 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://sxi.is-a.dev/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Merhaba Dünya</title><link>https://sxi.is-a.dev/post/merhaba/</link><pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate><guid>https://sxi.is-a.dev/post/merhaba/</guid><description>Merhaba ben Sxinar burada önemli duyuru ve blog yazılarımı ve bütün link adreslerimi bulabilirsiniz.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on Sxinar</title><link>https://sxi.is-a.dev/post/</link><description>Recent content in Posts on Sxinar</description><generator>Hugo -- 0.131.0</generator><language>tr</language><lastBuildDate>Fri, 09 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://sxi.is-a.dev/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Merhaba Dünya</title><link>https://sxi.is-a.dev/post/merhaba/</link><pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate><guid>https://sxi.is-a.dev/post/merhaba/</guid><description>Merhaba ben Sxinar burada önemli duyuru ve blog yazılarımı ve bütün link adreslerimi bulabilirsiniz.
 Blog’um, RSS destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz RSS okuyucunuz üzerinden blogumu takibe alabilirsiniz.
 {{ partial &amp;ldquo;search-google.html&amp;rdquo; . }}</description><content:encoded><![CDATA[<p><img loading="lazy" src="/images/hello.gif" alt=""  />
 </p>
@@ -6,6 +6,19 @@ Blog’um, RSS destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz
 <hr>
 <p>Blog’um, RSS destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz RSS okuyucunuz üzerinden blogumu takibe alabilirsiniz.</p>
 <p>{{ partial &ldquo;search-google.html&rdquo; . }}</p>
+]]></content:encoded></item><item><title>Blogumu güncelleyek mi?</title><link>https://sxi.is-a.dev/post/2024-08-09-blogumu-guncelleyek-mi/</link><pubDate>Fri, 09 Aug 2024 00:00:00 +0000</pubDate><guid>https://sxi.is-a.dev/post/2024-08-09-blogumu-guncelleyek-mi/</guid><description>Bu yazımda blogumda yaptığım değişiklikleri paylaşıyorum.</description><content:encoded><![CDATA[<p>Hepinize merhaba arkadaşlar.</p>
+<p>Uzun zamandır içimde olan yazma hevesini günlük ve defter ile karşılıyordum.</p>
+<p>Kısa süre once Flarum blog eklentisi ile blog yazmaya başladım fakat açık kaynaklı bir alternatif aradım.</p>
+<p>En son Bilinçli teknoloji tüketicileri forumunu keşfederek Wise hocam ile blog açma serüvenimi başlattım.</p>
+<p>Wise blog serüvenimi başlatmama aracı olarak bana da büyük bir sorumluluk yüklemiş oldu.</p>
+<p>İlk başladığım zamanlarda sadece teknoloji üzerine yazmaya karar vermiştim fakat teknoloji de bir yere kadar yazarken insan yorulur mu?</p>
+<p>Bende blog sayfamı Teknoloji yerine Genel günlük şekline çevirmek istiyorum.</p>
+<p>Bu şekilde sizlerle blog sayfamız forum gibi soru-cevap olarak kullanmak istiyorum.</p>
+<p>Yorum sistemim olan Cusdis ile oturum açmadan yorum yapabilirsiniz.</p>
+<p>Bu yazımda yaptığım değişiklikler ile HUGO gibi her şekile evrilebilen sitemi nasıl değiştirdiğimi anlatmak istiyorum.</p>
+<p>Aslında HUGO bu aralar markdown sebebi ile canımı çok sıkıyor PagesCMS kendim barindirmama rağmen ghost Wordpress ve Flarum rahatlığına ulaşamıyorum .</p>
+<p>Aslında bu yazı bu kadar kısa olmayacaktı fakat yazacaklarım sizin çok ilginizi çekemeyebilir sizi sıkmak benim görevim değil onun için bugünlük bu kadar.</p>
+<p>Allah&rsquo;a emanet.</p>
 ]]></content:encoded></item><item><title>Yorumlarınızı 3. Şahıslarla paylaşmayın: "Karşınızda Cusdis"</title><link>https://sxi.is-a.dev/post/2024-07-10-yorumlarinizi-3-sahislarla-paylasmayin-cusdis/</link><pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate><guid>https://sxi.is-a.dev/post/2024-07-10-yorumlarinizi-3-sahislarla-paylasmayin-cusdis/</guid><description>Yorumlarınızı 3. Şahıslarla paylaşmak zorunda değilsiniz açık kaynaklı yorum sistemi olan Cusdis ile tanışın</description><content:encoded><![CDATA[<p>Günümüzde neredeyse bütün bilinçli tüketicilerin kendine ait web siteleri var.</p>
 <p>Eğer sizde Disqus gibi şirketleri kullanarak yorumlarınızı 3. Taraf şahıslarla paylaşmak istemiyorsanız Cusdis ile tanışın.</p>
 <h1 id="cusdis-nedir-">Cusdis nedir ?</h1>
