@@ -6,7 +6,7 @@ Blog’um, RSS destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz
 <hr>
 <p>Blog’um, RSS destekler. Yazılarımı beğendiyseniz ve takip etmek isterseniz RSS okuyucunuz üzerinden blogumu takibe alabilirsiniz.</p>
 <p>{{ partial &ldquo;search-google.html&rdquo; . }}</p>
-]]></content:encoded></item><item><title>Blogumu güncelleyek mi?</title><link>https://sxi.is-a.dev/post/2024-08-09-blogumu-guncelleyek-mi/</link><pubDate>Fri, 09 Aug 2024 00:00:00 +0000</pubDate><guid>https://sxi.is-a.dev/post/2024-08-09-blogumu-guncelleyek-mi/</guid><description>Bu yazımda blogumda yaptığım değişiklikleri paylaşıyorum.</description><content:encoded><![CDATA[<p>Hepinize merhaba arkadaşlar.</p>
+]]></content:encoded></item><item><title>Blogumdan birkaç kuble</title><link>https://sxi.is-a.dev/post/2024-08-09-blogumu-guncelleyek-mi/</link><pubDate>Fri, 09 Aug 2024 00:00:00 +0000</pubDate><guid>https://sxi.is-a.dev/post/2024-08-09-blogumu-guncelleyek-mi/</guid><description>Bu yazımda blogumda yaptığım değişiklikleri paylaşıyorum.</description><content:encoded><![CDATA[<p>Hepinize merhaba arkadaşlar.</p>
 <p>Uzun zamandır içimde olan yazma hevesini günlük ve defter ile karşılıyordum.</p>
 <p>Kısa süre once Flarum blog eklentisi ile blog yazmaya başladım fakat açık kaynaklı bir alternatif aradım.</p>
 <p>En son Bilinçli teknoloji tüketicileri forumunu keşfederek Wise hocam ile blog açma serüvenimi başlattım.</p>
