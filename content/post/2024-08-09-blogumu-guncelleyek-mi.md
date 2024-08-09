@@ -1,6 +1,6 @@
 ---
 published: true
-title: Blogumu güncelleyek mi?
+title: Blogumdan birkaç kuble
 description: Bu yazımda blogumda yaptığım değişiklikleri paylaşıyorum.
 author: Sxi
 date: 2024-08-09
